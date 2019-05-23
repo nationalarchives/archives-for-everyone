@@ -4,5 +4,25 @@ body {
 body h1, body h2, body h3 {
   text-transform: uppercase;
 }
+body div[class|=part] {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+body .part-one {
+  background-color: #dde5d5;
+}
+body .part-two {
+  background-color: #fad3d4;
+}
+body .part-three {
+  background-color: #26262a;
+  color: #FFF;
+}
+body .part-four {
+  background-color: #f9f7e2;
+}
+body .part-five {
+  background-color: #dde5d5;
+}
 
 /*# sourceMappingURL=/styles.css.map */
