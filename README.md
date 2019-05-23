@@ -12,5 +12,6 @@ npm install -g parcel-bundler
 
 ### Daily use
 ```bash 
-parcel index.html
+parcel watch styles.scss & parcel index.html & open http://localhost:1234
 ```
+Note: you might need to refresh the browser after running this command.
