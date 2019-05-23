@@ -1,1 +1,1 @@
-{"version":3,"sources":["dist/styles.css"],"names":[],"mappings":"AAAA","file":"styles.547e319b.css","sourceRoot":"..","sourcesContent":[""]}
+{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA;EACE;;AAEA;EACE","file":"styles.547e319b.css","sourceRoot":"..","sourcesContent":["body {\n  font-family: 'Open Sans', sans-serif;\n\n  h1, h2, h3 {\n    text-transform: uppercase;\n  }\n}\n"]}
