@@ -1,7 +1,39 @@
 .part-two {
   background-color: $palette-pink;
 
-  .container {
+  .intro {
+
+    position: relative;
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: $large-devices) {
+      padding-bottom: 47.5em;
+      background-image: url('../images/section-two-intro-background.png');
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: center top;
+    }
+
+    @media (min-width: $extra-large-devices) {
+      padding-bottom: 56.5em;
+    }
+
+    h2 {
+      @media (min-width: $large-devices) {
+        position: absolute;
+        top: 9em;
+        width: 4em;
+      }
+
+      @media (min-width: $extra-large-devices) {
+        top: 11em;
+      }
+
+    }
+  }
+
+
+  .final {
     // Large devices (desktops, 992px and up)
     @media (min-width: $large-devices) {
       padding-bottom: 32.5em;
@@ -14,7 +46,6 @@
 
     @media (min-width: $extra-large-devices) {
       padding-bottom: 39.5em;
-      background-image: url('../images/section-two-list-background.png');
     }
 
     .we-must-be {
