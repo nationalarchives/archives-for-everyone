@@ -1,6 +1,30 @@
 .part-one {
   background-color: $palette-green;
 
+  .map-container {
+
+    @media (min-width: $large-devices) {
+      background-image: url('../images/section-one-map.jpg');
+      background-position: bottom left;
+      background-repeat: no-repeat;
+      background-size: 13em;
+
+      .callout {
+        margin-left: -10em;
+        background-color: $palette-green;
+        width: 100%;
+      }
+    }
+
+    @media (min-width: $extra-large-devices) {
+      background-size: 16em;
+
+      .callout {
+        width: 80%;
+      }
+    }
+  }
+
   .intro {
     position: relative;
 
@@ -83,6 +107,20 @@
         min-width: 21em;
         font-size: 107%;
       }
+    }
+  }
+
+  .final {
+    @media (min-width: $large-devices) {
+      padding-top: 3em;
+      background-image: url('../images/section-one-number.png');
+      background-repeat: no-repeat;
+      background-size: 6em;
+      background-position: 7em 0;
+    }
+
+    @media (min-width: $extra-large-devices) {
+      background-position: 10em 0;
     }
   }
 }
