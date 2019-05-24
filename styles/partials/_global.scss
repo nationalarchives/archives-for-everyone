@@ -1,0 +1,19 @@
+@import "variables";
+@import "part-one";
+@import "part-two";
+@import "part-three";
+@import "part-four";
+@import "part-five";
+
+body {
+  font-family: 'Open Sans', sans-serif;
+
+  h1, h2, h3 {
+    text-transform: uppercase;
+  }
+
+  div[class|=part] {
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+}
