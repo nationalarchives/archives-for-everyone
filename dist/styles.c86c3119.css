@@ -27,6 +27,12 @@ body h1, body h2, body h3 {
   font-weight: 500;
   text-transform: uppercase;
 }
+body .callout {
+  font-family: "Roboto Mono", monospace;
+}
+body strong {
+  font-weight: 700;
+}
 body div[class|=part] {
   padding-top: 3em;
   padding-bottom: 3em;
