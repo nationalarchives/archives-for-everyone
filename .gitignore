@@ -3,3 +3,4 @@ dist/**/**.js
 dist/**/**.js.map
 node_modules
 .cache
+*/**/.DS_Store

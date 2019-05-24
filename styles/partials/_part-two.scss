@@ -1,3 +1,106 @@
 .part-two {
   background-color: $palette-pink;
+
+  .container {
+    // Large devices (desktops, 992px and up)
+    @media (min-width: $large-devices) {
+      padding-bottom: 32.5em;
+      background-image: url('../images/section-two-list-background.png');
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: center bottom;
+    }
+
+
+    @media (min-width: $extra-large-devices) {
+      padding-bottom: 39.5em;
+      background-image: url('../images/section-two-list-background.png');
+    }
+
+    .we-must-be {
+      ul {
+        position: relative;
+        padding: 0;
+
+        li {
+          font-family: supria-sans-condensed, sans-serif;
+
+          @media (max-width: $large-devices) {
+            border: 1px solid black;
+            padding: 1em;
+            list-style-type: none;
+            margin-bottom: 1em;
+            font-size: 1.5em;
+
+            &:first-child {
+              background-color: $palette-cream;
+              margin-left: -2em;
+              margin-right: 2em;
+            }
+
+            &:nth-child(2) {
+              background-color: $palette-green;
+              margin-left: 0em;
+              margin-right: 0em;
+            }
+
+            &:nth-child(3) {
+              margin-left: -2em;
+              margin-right: 2em;
+            }
+          }
+
+          @media (min-width: $large-devices) {
+            list-style-type: none;
+            font-size: 2em;
+            position: absolute;
+
+            &:first-child {
+              max-width: 10em;
+              top: 1.8em;
+              left: -3.5em;
+            }
+
+            &:nth-child(2) {
+              top: 3.6em;
+              left: 4.7em;
+              width: 12em;
+            }
+
+            &:nth-child(3) {
+              top: 7.3em;
+              left: -0.5em;
+              width: 10em;
+            }
+          }
+
+          @media (min-width: $extra-large-devices) {
+            list-style-type: none;
+            font-size: 2em;
+            position: absolute;
+
+            &:first-child {
+              max-width: 10em;
+              top: 2.8em;
+              left: -4em;
+            }
+
+            &:nth-child(2) {
+              top: 5em;
+              left: 6em;
+              width: 12em;
+            }
+
+            &:nth-child(3) {
+              top: 9.3em;
+              left: -0.5em;
+              width: 10em;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
 }

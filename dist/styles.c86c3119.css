@@ -5,6 +5,95 @@
 .part-two {
   background-color: #fad3d4;
 }
+@media (min-width: 992px) {
+  .part-two .container {
+    padding-bottom: 32.5em;
+    background-image: url("/section-two-list-background.f92e4941.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+}
+@media (min-width: 1200px) {
+  .part-two .container {
+    padding-bottom: 39.5em;
+    background-image: url("/section-two-list-background.f92e4941.png");
+  }
+}
+.part-two .container .we-must-be ul {
+  position: relative;
+  padding: 0;
+}
+.part-two .container .we-must-be ul li {
+  font-family: supria-sans-condensed, sans-serif;
+}
+@media (max-width: 992px) {
+  .part-two .container .we-must-be ul li {
+    border: 1px solid black;
+    padding: 1em;
+    list-style-type: none;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+  }
+  .part-two .container .we-must-be ul li:first-child {
+    background-color: #f7f7e2;
+    margin-left: -2em;
+    margin-right: 2em;
+  }
+  .part-two .container .we-must-be ul li:nth-child(2) {
+    background-color: #dde5d5;
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+  .part-two .container .we-must-be ul li:nth-child(3) {
+    margin-left: -2em;
+    margin-right: 2em;
+  }
+}
+@media (min-width: 992px) {
+  .part-two .container .we-must-be ul li {
+    list-style-type: none;
+    font-size: 2em;
+    position: absolute;
+  }
+  .part-two .container .we-must-be ul li:first-child {
+    max-width: 10em;
+    top: 1.8em;
+    left: -3.5em;
+  }
+  .part-two .container .we-must-be ul li:nth-child(2) {
+    top: 3.6em;
+    left: 4.7em;
+    width: 12em;
+  }
+  .part-two .container .we-must-be ul li:nth-child(3) {
+    top: 7.3em;
+    left: -0.5em;
+    width: 10em;
+  }
+}
+@media (min-width: 1200px) {
+  .part-two .container .we-must-be ul li {
+    list-style-type: none;
+    font-size: 2em;
+    position: absolute;
+  }
+  .part-two .container .we-must-be ul li:first-child {
+    max-width: 10em;
+    top: 2.8em;
+    left: -4em;
+  }
+  .part-two .container .we-must-be ul li:nth-child(2) {
+    top: 5em;
+    left: 6em;
+    width: 12em;
+  }
+  .part-two .container .we-must-be ul li:nth-child(3) {
+    top: 9.3em;
+    left: -0.5em;
+    width: 10em;
+  }
+}
 
 .part-three {
   background-color: #26262a;
