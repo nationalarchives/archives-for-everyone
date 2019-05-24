@@ -1,6 +1,79 @@
 .part-one {
   background-color: #dde5d5;
 }
+.part-one .intro {
+  position: relative;
+}
+@media (min-width: 992px) {
+  .part-one .intro {
+    padding-bottom: 37em;
+    background-image: url("/section-one-intro-background.261d8b29.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+}
+@media (min-width: 1200px) {
+  .part-one .intro {
+    padding-bottom: 44em;
+  }
+}
+@media (min-width: 992px) {
+  .part-one .intro h1 span {
+    position: absolute;
+  }
+  .part-one .intro h1 span:first-child {
+    top: 1.58em;
+    left: 1.3em;
+  }
+  .part-one .intro h1 span:nth-child(2) {
+    top: 2.37em;
+    left: 4.33em;
+  }
+  .part-one .intro h1 span:nth-child(3) {
+    top: 3.15em;
+    left: 0em;
+  }
+}
+@media (min-width: 1200px) {
+  .part-one .intro h1 span {
+    position: absolute;
+  }
+  .part-one .intro h1 span:first-child {
+    top: 2.05em;
+    left: 1.8em;
+  }
+  .part-one .intro h1 span:nth-child(2) {
+    top: 3em;
+    left: 5.19em;
+  }
+  .part-one .intro h1 span:nth-child(3) {
+    top: 3.96em;
+    left: 0.95em;
+  }
+}
+@media (min-width: 992px) {
+  .part-one .intro .callout {
+    border: none;
+    letter-spacing: -0.5px;
+    position: absolute;
+    top: 20em;
+    left: 21em;
+    min-width: 21em;
+    font-size: 90%;
+  }
+}
+@media (min-width: 1200px) {
+  .part-one .intro .callout {
+    border: none;
+    letter-spacing: -0.5px;
+    position: absolute;
+    top: 20em;
+    left: 21em;
+    min-width: 21em;
+    font-size: 107%;
+  }
+}
 
 .part-two {
   background-color: #fad3d4;

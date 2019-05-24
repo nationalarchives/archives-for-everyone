@@ -1,3 +1,88 @@
 .part-one {
   background-color: $palette-green;
+
+  .intro {
+    position: relative;
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: $large-devices) {
+      padding-bottom: 37em;
+      background-image: url('../images/section-one-intro-background.png');
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: center top;
+    }
+
+    @media (min-width: $extra-large-devices) {
+      padding-bottom: 44em;
+    }
+
+    h1 {
+      @media (min-width: $large-devices) {
+        span {
+          position: absolute;
+
+          &:first-child {
+            top: 1.58em;
+            left: 1.3em;
+          }
+
+          &:nth-child(2) {
+            top: 2.37em;
+            left: 4.33em;
+          }
+
+          &:nth-child(3) {
+            top: 3.15em;
+            left: 0em;
+          }
+        }
+      }
+
+
+      @media (min-width: $extra-large-devices) {
+        span {
+          position: absolute;
+
+          &:first-child {
+            top: 2.05em;
+            left: 1.8em;
+          }
+
+          &:nth-child(2) {
+            top: 3.0em;
+            left: 5.19em;
+          }
+
+          &:nth-child(3) {
+            top: 3.96em;
+            left: 0.95em;
+          }
+        }
+      }
+
+    }
+
+    .callout {
+      @media (min-width: $large-devices) {
+        border: none;
+        letter-spacing: -0.5px;
+        position: absolute;
+        top: 20em;
+        left: 21em;
+        min-width: 21em;
+        font-size: 90%;
+      }
+
+      @media (min-width: $extra-large-devices) {
+        border: none;
+        letter-spacing: -0.5px;
+        position: absolute;
+        top: 20em;
+        left: 21em;
+        min-width: 21em;
+        font-size: 107%;
+      }
+    }
+  }
 }
