@@ -1,3 +1,24 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+body h1, body h2, body h3 {
+  font-family: supria-sans-condensed, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+body .callout {
+  font-family: "Roboto Mono", monospace;
+  border: 1px solid black;
+  padding: 2em;
+}
+body strong {
+  font-weight: 700;
+}
+body div[class|=part] {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
 .part-one {
   background-color: #dde5d5;
 }
@@ -244,25 +265,53 @@
   background-color: #dde5d5;
 }
 
-body {
-  font-family: "Open Sans", sans-serif;
+.slide-from-left {
+  animation-duration: 700ms;
+  animation-timing-function: ease-out;
+  animation-name: slidefromleft;
 }
-body h1, body h2, body h3 {
-  font-family: supria-sans-condensed, sans-serif;
-  font-weight: 500;
-  text-transform: uppercase;
+
+.slide-from-right {
+  animation-duration: 700ms;
+  animation-timing-function: ease-out;
+  animation-name: slidefromright;
 }
-body .callout {
-  font-family: "Roboto Mono", monospace;
-  border: 1px solid black;
-  padding: 2em;
+
+.fade-in {
+  animation-duration: 700ms;
+  animation-timing-function: ease-out;
+  animation-name: fadein;
 }
-body strong {
-  font-weight: 700;
+
+@keyframes slidefromleft {
+  from {
+    transform: translate(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0px);
+    opacity: 1;
+  }
 }
-body div[class|=part] {
-  padding-top: 3em;
-  padding-bottom: 3em;
+@keyframes slidefromright {
+  from {
+    transform: translate(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0px);
+    opacity: 1;
+  }
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 /*# sourceMappingURL=/styles.c86c3119.css.map */
