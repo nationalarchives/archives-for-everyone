@@ -189,47 +189,10 @@ body {
     }
 }
 
-.slide-from-left {
-    animation-duration: 700ms;
-    animation-timing-function: ease-out;
-    animation-name: slidefromleft;
-}
-
-.slide-from-right {
-    animation-duration: 700ms;
-    animation-timing-function: ease-out;
-    animation-name: slidefromright;
-}
-
 .fade-in {
     animation-duration: 700ms;
     animation-timing-function: ease-out;
     animation-name: fadein;
-}
-
-
-@keyframes slidefromleft {
-    from {
-        transform: translate(-100px);
-        opacity: 0;
-    }
-
-    to {
-        transform: translate(0px);
-        opacity: 1;
-    }
-}
-
-@keyframes slidefromright {
-    from {
-        transform: translate($offset);
-        opacity: 0;
-    }
-
-    to {
-        transform: translate(0px);
-        opacity: 1;
-    }
 }
 
 @keyframes fadein {
