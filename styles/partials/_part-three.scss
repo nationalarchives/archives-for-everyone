@@ -1,4 +1,140 @@
 .part-three {
   background-color: $palette-almost-black;
   color: #FFF;
+  position: relative;
+  padding-top: 0;
+
+  h3 {
+    display: block;
+
+    span {
+      @media (min-width: $large-devices) {
+        display: block;
+      }
+    }
+  }
+
+  @media (min-width: $large-devices) {
+    background-image: url('../images/section-three-top-strip-large.png');
+    background-repeat: repeat-x;
+    background-position: center top;
+  }
+
+  @media (min-width: $extra-large-devices) {
+    background-image: url('../images/section-three-top-strip-extra-large.png');
+    background-repeat: repeat-x;
+    background-position: center top;
+  }
+
+  .container {
+
+    @media (min-width: $large-devices) {
+      color: #000;
+      min-height: 108em;
+      background: url('../images/section-three-intro-background.png') no-repeat center top,
+      url('../images/section-three-end-background.png') no-repeat center bottom;
+      background-size: 100%;
+
+      .display-3 {
+        line-height: 1;
+      }
+    }
+
+    @media (min-width: $extra-large-devices) {
+      color: #000;
+      min-height: 128em;
+    }
+
+    #inclusive-archive {
+      @media (min-width: $large-devices) {
+        position: absolute;
+        top: 11em;
+        left: -1.5em;
+
+        p {
+          position: absolute;
+          color: #FFF;
+          background-color: #26262a;
+          top: 13em;
+          left: 25em;
+          min-width: 23em;
+          font-size: 90%;
+          @media (min-width: $extra-large-devices) {
+            top: 16em;
+            left: 27em;
+            font-size: 100%;
+          }
+        }
+      }
+    }
+
+    #entrepreneurial-archive {
+      @media (min-width: $large-devices) {
+        position: absolute;
+        top: 46em;
+        left: 0em;
+
+        p {
+          position: absolute;
+          color: #FFF;
+          background-color: #26262a;
+          min-width: 33em;
+          font-size: 90%;
+          top: 20em;
+          left: 12em;
+        }
+      }
+
+      @media (min-width: $extra-large-devices) {
+        top: 57em;
+        left: 4.5em;
+
+        p {
+          font-size: 100%;
+          top: 18em;
+          left: 8em;
+        }
+      }
+    }
+
+    #disruptive-archive {
+      @media (min-width: $large-devices) {
+        position: absolute;
+        top: 83em;
+        left: 12.5em;
+      }
+
+      @media (min-width: $extra-large-devices) {
+        position: absolute;
+        top: 100em;
+        left: 15.5em;
+      }
+
+      p {
+        @media (min-width: $large-devices) {
+          position: absolute;
+          color: #FFF;
+          background-color: #26262a;
+          top: -1.5em;
+          left: -27em;
+          width: 23em;
+          font-size: 90%;
+        }
+
+        @media (min-width: $extra-large-devices) {
+          position: absolute;
+          color: #FFF;
+          background-color: #26262a;
+          top: -3.5em;
+          left: -29em;
+          width: 23em;
+          font-size: 100%;
+        }
+      }
+
+    }
+
+
+  }
 }
+
