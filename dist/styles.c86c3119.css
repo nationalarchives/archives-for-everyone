@@ -262,6 +262,7 @@ body div[class|=part] {
   color: #FFF;
   position: relative;
   padding-top: 0;
+  padding-bottom: 0 !important;
 }
 .part-three h3 {
   display: block;
@@ -391,6 +392,53 @@ body div[class|=part] {
 
 .part-four {
   background-color: #f9f7e2;
+  padding-top: 0 !important;
+}
+.part-four .container {
+  position: relative;
+}
+@media (min-width: 992px) {
+  .part-four .container h2 {
+    position: absolute;
+    top: 4.8em;
+  }
+  .part-four .container h2 span {
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  .part-four .container h2 {
+    position: absolute;
+    top: 6em;
+  }
+}
+@media (min-width: 992px) {
+  .part-four .container .making-it-happen {
+    position: absolute;
+    top: 31em;
+  }
+}
+@media (min-width: 1200px) {
+  .part-four .container .making-it-happen {
+    position: absolute;
+    top: 35em;
+  }
+}
+@media (min-width: 992px) {
+  .part-four .container {
+    color: #000;
+    min-height: 85em;
+    background: url("/section-four-background.1edbc358.png") no-repeat center top;
+    background-size: 100%;
+  }
+  .part-four .container .display-3 {
+    line-height: 1;
+  }
+}
+@media (min-width: 1200px) {
+  .part-four .container {
+    min-height: 81em;
+  }
 }
 
 .part-five {

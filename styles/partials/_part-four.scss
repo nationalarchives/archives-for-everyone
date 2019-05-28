@@ -1,3 +1,52 @@
 .part-four {
   background-color: $palette-beige;
+  padding-top: 0 !important;
+
+  .container {
+    position: relative;
+
+    h2 {
+      @media (min-width: $large-devices) {
+        position: absolute;
+        top: 4.8em;
+
+        span {
+          display: block;
+        }
+      }
+
+      @media (min-width: $extra-large-devices) {
+        position: absolute;
+        top: 6em;
+      }
+    }
+
+    .making-it-happen {
+      @media (min-width: $large-devices) {
+        position: absolute;
+        top: 31em;
+      }
+
+      @media (min-width: $extra-large-devices) {
+        position: absolute;
+        top: 35em;
+      }
+    }
+
+    @media (min-width: $large-devices) {
+      color: #000;
+      min-height: 85em;
+      background: url('../images/section-four-background.png') no-repeat center top;
+      background-size: 100%;
+
+      .display-3 {
+        line-height: 1;
+      }
+    }
+
+    @media (min-width: $extra-large-devices) {
+      min-height: 81em;
+    }
+  }
+
 }
