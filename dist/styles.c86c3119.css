@@ -310,7 +310,7 @@ body div[class|=part] {
 @media (min-width: 992px) {
   .part-three .container #inclusive-archive {
     position: absolute;
-    top: 11em;
+    top: 13em;
     left: -1.5em;
   }
   .part-three .container #inclusive-archive p {
@@ -325,7 +325,7 @@ body div[class|=part] {
 }
 @media (min-width: 992px) and (min-width: 1200px) {
   .part-three .container #inclusive-archive p {
-    top: 16em;
+    top: 14em;
     left: 27em;
     font-size: 100%;
   }
@@ -348,13 +348,13 @@ body div[class|=part] {
 }
 @media (min-width: 1200px) {
   .part-three .container #entrepreneurial-archive {
-    top: 57em;
-    left: 4.5em;
+    top: 56em;
+    left: 2.5em;
   }
   .part-three .container #entrepreneurial-archive p {
     font-size: 100%;
-    top: 18em;
-    left: 8em;
+    top: 20em;
+    left: 11em;
   }
 }
 @media (min-width: 992px) {
@@ -507,7 +507,7 @@ body div[class|=part] {
   }
   .part-five .container p:nth-child(3) {
     background-color: #26262a;
-    top: 73em;
+    top: 72.5em;
     left: 7em;
     max-width: 28em;
   }

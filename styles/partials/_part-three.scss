@@ -52,7 +52,7 @@
     #inclusive-archive {
       @media (min-width: $large-devices) {
         position: absolute;
-        top: 11em;
+        top: 13em;
         left: -1.5em;
 
         p {
@@ -64,7 +64,7 @@
           min-width: 23em;
           font-size: 90%;
           @media (min-width: $extra-large-devices) {
-            top: 16em;
+            top: 14em;
             left: 27em;
             font-size: 100%;
           }
@@ -90,13 +90,13 @@
       }
 
       @media (min-width: $extra-large-devices) {
-        top: 57em;
-        left: 4.5em;
+        top: 56em;
+        left: 2.5em;
 
         p {
           font-size: 100%;
-          top: 18em;
-          left: 8em;
+          top: 20em;
+          left: 11em;
         }
       }
     }
