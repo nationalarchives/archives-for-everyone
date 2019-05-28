@@ -444,6 +444,73 @@ body div[class|=part] {
 .part-five {
   background-color: #dde5d5;
 }
+.part-five .container {
+  position: relative;
+}
+@media (min-width: 992px) {
+  .part-five .container h2 {
+    position: absolute;
+    left: 4em;
+    top: 5.2em;
+  }
+  .part-five .container h2 span {
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  .part-five .container h2 {
+    left: 5em;
+    top: 6.5em;
+  }
+}
+@media (min-width: 992px) {
+  .part-five .container p {
+    position: absolute;
+  }
+  .part-five .container p:first-child {
+    top: 35.5em;
+    left: 11em;
+    min-width: 24em;
+  }
+  .part-five .container p:nth-child(2) {
+    top: 50em;
+    left: -6em;
+    max-width: 25em;
+  }
+  .part-five .container p:nth-child(3) {
+    color: white;
+    top: 61em;
+    left: 6em;
+  }
+}
+@media (min-width: 1200px) {
+  .part-five .container p {
+    position: absolute;
+  }
+  .part-five .container p:first-child {
+    top: 43em;
+    left: 13em;
+    min-width: 28em;
+  }
+  .part-five .container p:nth-child(2) {
+    top: 60em;
+    left: -6em;
+    max-width: 28em;
+  }
+  .part-five .container p:nth-child(3) {
+    background-color: #26262a;
+    top: 73em;
+    left: 7em;
+    max-width: 28em;
+  }
+}
+@media (min-width: 992px) {
+  .part-five .container {
+    min-height: 85em;
+    background: url("/section-five-background.0798769f.png") no-repeat center top;
+    background-size: 100%;
+  }
+}
 
 .slide-from-left {
   animation-duration: 700ms;

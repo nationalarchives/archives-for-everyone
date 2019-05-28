@@ -1,3 +1,88 @@
 .part-five {
   background-color: $palette-green;
+
+  .container {
+    position: relative;
+
+    @media (min-width: $large-devices) {
+
+      h2 {
+        position: absolute;
+        left: 4em;
+        top: 5.2em;
+
+        span {
+          display: block;
+        }
+      }
+    }
+
+    @media (min-width: $extra-large-devices) {
+
+      h2 {
+        left: 5em;
+        top: 6.5em;
+      }
+    }
+
+
+    p {
+
+      @media (min-width: $large-devices) {
+
+        position: absolute;
+
+        &:first-child {
+          top: 35.5em;
+          left: 11em;
+          min-width: 24em;
+        }
+
+        &:nth-child(2) {
+          top: 50em;
+          left: -6em;
+          max-width: 25em;
+        }
+
+        &:nth-child(3) {
+          color: white;
+          top: 61em;
+          left: 6em;
+        }
+
+      }
+
+      @media (min-width: $extra-large-devices) {
+
+        position: absolute;
+
+        &:first-child {
+          top: 43em;
+          left: 13em;
+          min-width: 28em;
+        }
+
+        &:nth-child(2) {
+          top: 60em;
+          left: -6em;
+          max-width: 28em;
+        }
+
+        &:nth-child(3) {
+          background-color: $palette-almost-black;
+          top: 73em;
+          left: 7em;
+          max-width: 28em;
+        }
+
+      }
+
+    }
+
+    @media (min-width: $large-devices) {
+      min-height: 85em;
+      background: url('../images/section-five-background.png') no-repeat center top;
+      background-size: 100%;
+    }
+  }
 }
