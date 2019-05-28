@@ -2,8 +2,11 @@
   background-color: $palette-almost-black;
   color: #FFF;
   position: relative;
-  padding-top: 0;
-  padding-bottom: 0!important;
+
+  @media (min-width: $large-devices) {
+    padding-top: 0;
+    padding-bottom: 0 !important;
+  }
 
   h3 {
     display: block;

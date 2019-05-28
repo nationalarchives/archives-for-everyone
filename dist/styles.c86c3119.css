@@ -261,8 +261,12 @@ body div[class|=part] {
   background-color: #26262a;
   color: #FFF;
   position: relative;
-  padding-top: 0;
-  padding-bottom: 0 !important;
+}
+@media (min-width: 992px) {
+  .part-three {
+    padding-top: 0;
+    padding-bottom: 0 !important;
+  }
 }
 .part-three h3 {
   display: block;
@@ -392,7 +396,11 @@ body div[class|=part] {
 
 .part-four {
   background-color: #f9f7e2;
-  padding-top: 0 !important;
+}
+@media (min-width: 992px) {
+  .part-four {
+    padding-top: 0;
+  }
 }
 .part-four .container {
   position: relative;

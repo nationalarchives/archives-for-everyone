@@ -1,6 +1,9 @@
 .part-four {
   background-color: $palette-beige;
-  padding-top: 0 !important;
+
+  @media (min-width: $large-devices) {
+    padding-top: 0;
+  }
 
   .container {
     position: relative;
