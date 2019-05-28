@@ -134,6 +134,11 @@ body div[class|=part] {
 .part-two {
   background-color: #fad3d4;
 }
+@media (min-width: 992px) {
+  .part-two {
+    padding-bottom: 0 !important;
+  }
+}
 .part-two .intro {
   position: relative;
 }
@@ -255,6 +260,133 @@ body div[class|=part] {
 .part-three {
   background-color: #26262a;
   color: #FFF;
+  position: relative;
+  padding-top: 0;
+}
+.part-three h3 {
+  display: block;
+}
+@media (min-width: 992px) {
+  .part-three h3 span {
+    display: block;
+  }
+}
+@media (min-width: 992px) {
+  .part-three {
+    background-image: url("/section-three-top-strip-large.911b9775.png");
+    background-repeat: repeat-x;
+    background-position: center top;
+  }
+}
+@media (min-width: 1200px) {
+  .part-three {
+    background-image: url("/section-three-top-strip-extra-large.6aa44890.png");
+    background-repeat: repeat-x;
+    background-position: center top;
+  }
+}
+@media (min-width: 992px) {
+  .part-three .container {
+    color: #000;
+    min-height: 108em;
+    background: url("/section-three-intro-background.4547d55f.png") no-repeat center top, url("/section-three-end-background.d80d4ad5.png") no-repeat center bottom;
+    background-size: 100%;
+  }
+  .part-three .container .display-3 {
+    line-height: 1;
+  }
+}
+@media (min-width: 1200px) {
+  .part-three .container {
+    color: #000;
+    min-height: 128em;
+  }
+}
+@media (min-width: 992px) {
+  .part-three .container #inclusive-archive {
+    position: absolute;
+    top: 11em;
+    left: -1.5em;
+  }
+  .part-three .container #inclusive-archive p {
+    position: absolute;
+    color: #FFF;
+    background-color: #26262a;
+    top: 13em;
+    left: 25em;
+    min-width: 23em;
+    font-size: 90%;
+  }
+}
+@media (min-width: 992px) and (min-width: 1200px) {
+  .part-three .container #inclusive-archive p {
+    top: 16em;
+    left: 27em;
+    font-size: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .part-three .container #entrepreneurial-archive {
+    position: absolute;
+    top: 46em;
+    left: 0em;
+  }
+  .part-three .container #entrepreneurial-archive p {
+    position: absolute;
+    color: #FFF;
+    background-color: #26262a;
+    min-width: 33em;
+    font-size: 90%;
+    top: 20em;
+    left: 12em;
+  }
+}
+@media (min-width: 1200px) {
+  .part-three .container #entrepreneurial-archive {
+    top: 57em;
+    left: 4.5em;
+  }
+  .part-three .container #entrepreneurial-archive p {
+    font-size: 100%;
+    top: 18em;
+    left: 8em;
+  }
+}
+@media (min-width: 992px) {
+  .part-three .container #disruptive-archive {
+    position: absolute;
+    top: 83em;
+    left: 12.5em;
+  }
+}
+@media (min-width: 1200px) {
+  .part-three .container #disruptive-archive {
+    position: absolute;
+    top: 100em;
+    left: 15.5em;
+  }
+}
+@media (min-width: 992px) {
+  .part-three .container #disruptive-archive p {
+    position: absolute;
+    color: #FFF;
+    background-color: #26262a;
+    top: -1.5em;
+    left: -27em;
+    width: 23em;
+    font-size: 90%;
+  }
+}
+@media (min-width: 1200px) {
+  .part-three .container #disruptive-archive p {
+    position: absolute;
+    color: #FFF;
+    background-color: #26262a;
+    top: -3.5em;
+    left: -29em;
+    width: 23em;
+    font-size: 100%;
+  }
 }
 
 .part-four {

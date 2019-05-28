@@ -1,6 +1,10 @@
 .part-two {
   background-color: $palette-pink;
 
+  @media (min-width: $large-devices) {
+    padding-bottom: 0!important;
+  }
+
   .intro {
 
     position: relative;
