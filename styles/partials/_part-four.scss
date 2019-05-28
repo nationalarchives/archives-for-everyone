@@ -2,7 +2,7 @@
   background-color: $palette-beige;
 
   @media (min-width: $large-devices) {
-    padding-top: 0;
+    padding-top: 0!important;
   }
 
   .container {

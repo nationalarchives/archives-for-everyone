@@ -310,7 +310,7 @@ body div[class|=part] {
 @media (min-width: 992px) {
   .part-three .container #inclusive-archive {
     position: absolute;
-    top: 13em;
+    top: 11.5em;
     left: -1.5em;
   }
   .part-three .container #inclusive-archive p {
@@ -399,7 +399,7 @@ body div[class|=part] {
 }
 @media (min-width: 992px) {
   .part-four {
-    padding-top: 0;
+    padding-top: 0 !important;
   }
 }
 .part-four .container {
