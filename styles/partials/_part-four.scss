@@ -2,7 +2,8 @@
   background-color: $palette-beige;
 
   @media (min-width: $large-devices) {
-    padding-top: 0!important;
+    background: linear-gradient(0deg, rgba(249, 247, 226, 1) 0%, rgba(249, 247, 226, 1) 97%, rgba(37, 37, 41, 1) 3%);
+    padding-top: 0 !important;
   }
 
   .container {

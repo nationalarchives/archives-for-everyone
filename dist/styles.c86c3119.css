@@ -399,6 +399,7 @@ body div[class|=part] {
 }
 @media (min-width: 992px) {
   .part-four {
+    background: linear-gradient(0deg, #f9f7e2 0%, #f9f7e2 97%, #252529 3%);
     padding-top: 0 !important;
   }
 }
