@@ -32,8 +32,10 @@ window.addEventListener("load", function (event) {
         { selector: '#entrepreneurial-archive h3', className: 'fade-in' },
         { selector: '#entrepreneurial-archive p', className: 'slide-from-right' },
         { selector: '#disruptive-archive h3', className: 'fade-in' },
-        { selector: '#disruptive-archive p', className: 'slide-from-right' }
-
+        { selector: '#disruptive-archive p', className: 'slide-from-left' },
+        { selector: '.part-five p:nth-child(1)', className: 'slide-from-right'},
+        { selector: '.part-five p:nth-child(2)', className: 'slide-from-left'},
+        { selector: '.part-five p:nth-child(3)', className: 'fade-in'}
     ];
 
     animations.forEach(function (item) {
