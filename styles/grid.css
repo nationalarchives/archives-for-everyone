@@ -176,7 +176,7 @@ body {
         }
         .grid .item:nth-child(10) {
             grid-column: col-start 4 / span 3;
-            grid-row: 15 / 18;
+            grid-row: 16 / 19;
         }
         .grid .item:nth-child(11) {
             background-image: url(../images/collage-5.jpg);
