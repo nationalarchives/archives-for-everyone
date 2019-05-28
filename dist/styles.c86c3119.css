@@ -313,17 +313,17 @@ body div[class|=part] {
     top: 11.5em;
     left: -1.5em;
   }
-  .part-three .container #inclusive-archive p {
-    position: absolute;
-    color: #FFF;
-    background-color: #26262a;
-    top: 13em;
-    left: 25em;
-    min-width: 23em;
-    font-size: 90%;
-  }
 }
-@media (min-width: 992px) and (min-width: 1200px) {
+.part-three .container #inclusive-archive p {
+  position: absolute;
+  color: #FFF;
+  background-color: #26262a;
+  top: 13em;
+  left: 25em;
+  min-width: 23em;
+  font-size: 90%;
+}
+@media (min-width: 1200px) {
   .part-three .container #inclusive-archive p {
     top: 14em;
     left: 27em;
