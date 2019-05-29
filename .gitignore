@@ -1,10 +1,5 @@
 .idea/
-dist/**/**.js
-dist/**/**.js.map
 node_modules
 .cache
 */**/.DS_Store
-dist/scripts.d2cda223.js
-dist/scripts.d2cda223.js.map
-dist/styles.c86c3119.js
-dist/styles.c86c3119.js.map
+npm
