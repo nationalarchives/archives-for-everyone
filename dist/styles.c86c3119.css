@@ -315,17 +315,21 @@ body div[class|=part] {
   }
 }
 .part-three .container #inclusive-archive p {
-  position: absolute;
   color: #FFF;
   background-color: #26262a;
-  top: 13em;
-  left: 25em;
-  min-width: 23em;
-  font-size: 90%;
+}
+@media (min-width: 992px) {
+  .part-three .container #inclusive-archive p {
+    position: absolute;
+    top: 13em;
+    font-size: 90%;
+    min-width: 23em;
+    left: 25em;
+  }
 }
 @media (min-width: 1200px) {
   .part-three .container #inclusive-archive p {
-    top: 14em;
+    top: 16em;
     left: 27em;
     font-size: 100%;
   }
@@ -342,7 +346,7 @@ body div[class|=part] {
     background-color: #26262a;
     min-width: 33em;
     font-size: 90%;
-    top: 20em;
+    top: 19.5em;
     left: 12em;
   }
 }
