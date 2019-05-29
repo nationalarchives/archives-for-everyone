@@ -137,58 +137,24 @@ var createObserver = function createObserver(element, className) {
 };
 
 window.addEventListener("load", function (event) {
-  var animations = [{
-    selector: '.map-container .lead',
-    className: 'slide-from-left'
-  }, {
-    selector: '.part-two h2',
-    className: 'fade-in'
-  }, {
-    selector: '.part-two h2',
-    className: 'fade-in'
-  }, {
-    selector: '.part-four h2',
-    className: 'fade-in'
-  }, {
-    selector: '.part-five h2',
-    className: 'fade-in'
-  }, {
-    selector: '.we-must-be ul li:nth-child(1)',
-    className: 'slide-from-left'
-  }, {
-    selector: '.we-must-be ul li:nth-child(2)',
-    className: 'slide-from-right'
-  }, {
-    selector: '.we-must-be ul li:nth-child(3)',
-    className: 'slide-from-left'
-  }, {
-    selector: '#inclusive-archive h3',
-    className: 'fade-in'
-  }, {
-    selector: '#inclusive-archive p',
-    className: 'slide-from-right'
-  }, {
-    selector: '#entrepreneurial-archive h3',
-    className: 'fade-in'
-  }, {
-    selector: '#entrepreneurial-archive p',
-    className: 'slide-from-right'
-  }, {
-    selector: '#disruptive-archive h3',
-    className: 'fade-in'
-  }, {
-    selector: '#disruptive-archive p',
-    className: 'slide-from-left'
-  }, {
-    selector: '.part-five p:nth-child(1)',
-    className: 'slide-from-right'
-  }, {
-    selector: '.part-five p:nth-child(2)',
-    className: 'slide-from-left'
-  }, {
-    selector: '.part-five p:nth-child(3)',
-    className: 'fade-in'
-  }];
+  var animations = [// { selector: '.map-container .lead', className: 'slide-from-left' },
+    // { selector: '.part-two h2', className: 'fade-in' },
+    // { selector: '.part-two h2', className: 'fade-in' },
+    // { selector: '.part-four h2', className: 'fade-in' },
+    // { selector: '.part-five h2', className: 'fade-in' },
+    // { selector: '.we-must-be ul li:nth-child(1)', className: 'slide-from-left' },
+    // { selector: '.we-must-be ul li:nth-child(2)', className: 'slide-from-right' },
+    // { selector: '.we-must-be ul li:nth-child(3)', className: 'slide-from-left' },
+    // { selector: '#inclusive-archive h3', className: 'fade-in' },
+    // { selector: '#inclusive-archive p', className: 'slide-from-right' },
+    // { selector: '#entrepreneurial-archive h3', className: 'fade-in' },
+    // { selector: '#entrepreneurial-archive p', className: 'slide-from-right' },
+    // { selector: '#disruptive-archive h3', className: 'fade-in' },
+    // { selector: '#disruptive-archive p', className: 'slide-from-left' },
+    // { selector: '.part-five p:nth-child(1)', className: 'slide-from-right'},
+    // { selector: '.part-five p:nth-child(2)', className: 'slide-from-left'},
+    // { selector: '.part-five p:nth-child(3)', className: 'fade-in'}
+  ];
   animations.forEach(function (item) {
     var entrepreneurial_archive_p = document.querySelector(item.selector);
     createObserver(entrepreneurial_archive_p, item.className);
