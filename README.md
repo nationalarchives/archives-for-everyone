@@ -15,3 +15,11 @@ npm install -g parcel-bundler
 parcel watch styles.scss & parcel index.html & open http://localhost:1234
 ```
 Note: you might need to refresh the browser after running this command.
+
+### Preparing for deployment
+
+Before submitting a PR, run this command to ensure all assets have been added to the  `dist` directory: 
+
+```bash
+parcel build index.html grid.html
+```
