@@ -1,0 +1,17 @@
+.masthead {
+  background-color: rgba(38, 38, 42, 0.95);
+  padding: 1.3rem;
+
+  a.navigation {
+    color: $palette-almost-black;
+    background: $palette-green;
+    font-size: 0.9em;
+    font-family: "Roboto Mono", monospace;
+    margin-top: 1rem;
+    padding: 0.4rem 0.7rem;
+
+    @media (min-width: $medium-devices) {
+      margin-top: 0;
+    }
+  }
+}
