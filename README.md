@@ -15,3 +15,11 @@ npm install -g parcel-bundler
 parcel watch styles.scss & parcel index.html & open http://localhost:1234
 ```
 Note: you might need to refresh the browser after running this command.
+
+### Deploying to Azure
+
+Before merging a PR, be sure to run 
+
+```bash
+parcel build index.html grid.html
+```
