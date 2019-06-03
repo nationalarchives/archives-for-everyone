@@ -9,6 +9,15 @@
 
     position: relative;
 
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: $medium-devices) {
+      padding-bottom: 32.5em;
+      background-image: url('../images/section-two-intro-background-medium-2.png');
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: 30px top;
+    }
+
     // Large devices (desktops, 992px and up)
     @media (min-width: $large-devices) {
       padding-bottom: 47.5em;
@@ -23,10 +32,21 @@
     }
 
     h2 {
+      @media (min-width: $medium-devices) {
+        position: absolute;
+        top: 4.7em;
+        border: 1px solid $palette-almost-black;
+        padding: 0.9em;
+        font-size: 3.5em;
+        width: auto;
+      }
       @media (min-width: $large-devices) {
         position: absolute;
         top: 9em;
+        left: auto;
         width: 4em;
+        border: 0;
+        padding: 0;
       }
 
       @media (min-width: $extra-large-devices) {
@@ -37,6 +57,14 @@
 
 
   .final {
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: $medium-devices) {
+      padding-bottom: 23.5em;
+      background-image: url('../images/section-two-list-background-medium.png');
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: center bottom;
+    }
     // Large devices (desktops, 992px and up)
     @media (min-width: $large-devices) {
       padding-bottom: 32.5em;
@@ -53,34 +81,43 @@
 
     .we-must-be {
       ul {
-        position: relative;
+        position: absolute;
         padding: 0;
+
+        @media (max-width: $large-devices) {
+          position: relative;
+        }
 
         li {
           font-family: supria-sans-condensed, sans-serif;
 
           @media (max-width: $large-devices) {
-            border: 1px solid black;
-            padding: 1em;
+            border: 1px solid $palette-almost-black;
+            padding: 0.7em;
             list-style-type: none;
             margin-bottom: 1em;
-            font-size: 1.5em;
+            font-size: 1.4em;
+            position: absolute;
 
             &:first-child {
               background-color: $palette-cream;
-              margin-left: -2em;
-              margin-right: 2em;
+              top: 2.2em;
+              left: 3.2em;
+              width: 9.94em;
             }
 
             &:nth-child(2) {
               background-color: $palette-green;
-              margin-left: 0em;
-              margin-right: 0em;
+              top: 4.45em;
+              left: 13.1em;
+              width: 13.2em;
             }
 
             &:nth-child(3) {
-              margin-left: -2em;
-              margin-right: 2em;
+              background-color: $palette-pink;
+              top: 8.84em;
+              left: 6.5em;
+              width: 9.94em;
             }
           }
 
@@ -93,6 +130,7 @@
               max-width: 10em;
               top: 1.8em;
               left: -3.5em;
+              width: 10em;
             }
 
             &:nth-child(2) {
