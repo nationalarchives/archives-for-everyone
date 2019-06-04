@@ -31,6 +31,11 @@ body .container .col-lg-6 {
   background-color: rgba(38, 38, 42, 0.95);
   padding: 1.3rem;
 }
+@media (max-width: 576px) {
+  .masthead {
+    position: relative;
+  }
+}
 .masthead img {
   margin-right: 2em;
 }
@@ -111,11 +116,9 @@ body .container .col-lg-6 {
   font-size: 3.4em;
 }
 @media (min-width: 768px) {
-  .part-one .intro h1 {
-    font-size: 4.5rem;
-  }
   .part-one .intro h1 span {
     position: absolute;
+    font-size: 4.5rem;
   }
   .part-one .intro h1 span:first-child {
     top: 1.24em;
@@ -133,23 +136,25 @@ body .container .col-lg-6 {
 @media (min-width: 992px) {
   .part-one .intro h1 span {
     position: absolute;
+    font-size: 3.8rem;
   }
   .part-one .intro h1 span:first-child {
-    top: 1.58em;
+    top: 2.04em;
     left: 1.3em;
   }
   .part-one .intro h1 span:nth-child(2) {
-    top: 2.37em;
+    top: 2.96em;
     left: 4.33em;
   }
   .part-one .intro h1 span:nth-child(3) {
-    top: 3.15em;
+    top: 3.9em;
     left: 0em;
   }
 }
 @media (min-width: 1200px) {
   .part-one .intro h1 span {
     position: absolute;
+    font-size: 4.5rem;
   }
   .part-one .intro h1 span:first-child {
     top: 2.05em;
@@ -302,14 +307,24 @@ body .container .col-lg-6 {
   }
 }
 .part-two .final .we-must-be ul li {
+  position: relative;
   font-family: supria-sans-condensed, sans-serif;
+  list-style-type: none;
+  padding: 0.7em;
+  margin-bottom: 1em;
+  border: 1px solid #26262a;
 }
-@media (max-width: 992px) {
+.part-two .final .we-must-be ul li:first-child {
+  background-color: #f7f7e2;
+}
+.part-two .final .we-must-be ul li:nth-child(2) {
+  background-color: #dde5d5;
+}
+.part-two .final .we-must-be ul li:nth-child(3) {
+  background-color: #fad3d4;
+}
+@media (min-width: 768px) {
   .part-two .final .we-must-be ul li {
-    border: 1px solid #26262a;
-    padding: 0.7em;
-    list-style-type: none;
-    margin-bottom: 1em;
     font-size: 1.4em;
     position: absolute;
   }
@@ -336,17 +351,20 @@ body .container .col-lg-6 {
   .part-two .final .we-must-be ul li {
     list-style-type: none;
     font-size: 2em;
+    padding: 0;
     position: absolute;
+    border: 0;
+    background-color: transparent !important;
   }
   .part-two .final .we-must-be ul li:first-child {
     max-width: 10em;
     top: 1.8em;
-    left: -3.5em;
+    left: -3.2em;
     width: 10em;
   }
   .part-two .final .we-must-be ul li:nth-child(2) {
     top: 3.6em;
-    left: 4.7em;
+    left: 5.1em;
     width: 12em;
   }
   .part-two .final .we-must-be ul li:nth-child(3) {
@@ -364,7 +382,7 @@ body .container .col-lg-6 {
   .part-two .final .we-must-be ul li:first-child {
     max-width: 10em;
     top: 2.8em;
-    left: -4em;
+    left: -3.5em;
   }
   .part-two .final .we-must-be ul li:nth-child(2) {
     top: 5em;

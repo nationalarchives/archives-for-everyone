@@ -89,13 +89,23 @@
         }
 
         li {
+          position: relative;
           font-family: supria-sans-condensed, sans-serif;
+          list-style-type: none;
+          padding: 0.7em;
+          margin-bottom: 1em;
+          border: 1px solid $palette-almost-black;
 
-          @media (max-width: $large-devices) {
-            border: 1px solid $palette-almost-black;
-            padding: 0.7em;
-            list-style-type: none;
-            margin-bottom: 1em;
+          &:first-child {
+            background-color: $palette-cream;
+          }
+          &:nth-child(2) {
+            background-color: $palette-green;
+          }
+          &:nth-child(3) {
+            background-color: $palette-pink;
+          }
+          @media (min-width: $medium-devices) {
             font-size: 1.4em;
             position: absolute;
 
@@ -124,18 +134,21 @@
           @media (min-width: $large-devices) {
             list-style-type: none;
             font-size: 2em;
+            padding: 0;
             position: absolute;
+            border: 0;
+            background-color: transparent !important;
 
             &:first-child {
               max-width: 10em;
               top: 1.8em;
-              left: -3.5em;
+              left: -3.2em;
               width: 10em;
             }
 
             &:nth-child(2) {
               top: 3.6em;
-              left: 4.7em;
+              left: 5.1em;
               width: 12em;
             }
 
@@ -154,7 +167,7 @@
             &:first-child {
               max-width: 10em;
               top: 2.8em;
-              left: -4em;
+              left: -3.5em;
             }
 
             &:nth-child(2) {

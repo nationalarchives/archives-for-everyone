@@ -57,10 +57,9 @@
 
         @media (min-width: $medium-devices) {
 
-          font-size: 4.5rem;
-
           span {
-              position: absolute;
+            position: absolute;
+            font-size: 4.5rem;
 
             &:first-child {
               top: 1.24em;
@@ -82,19 +81,20 @@
         @media (min-width: $large-devices) {
           span {
             position: absolute;
+            font-size: 3.8rem;
 
               &:first-child {
-                top: 1.58em;
+                top: 2.04em;
                 left: 1.3em;
               }
 
               &:nth-child(2) {
-                top: 2.37em;
+                top: 2.96em;
                 left: 4.33em;
               }
 
               &:nth-child(3) {
-                top: 3.15em;
+                top: 3.9em;
                 left: 0em;
               }
           }
@@ -104,6 +104,7 @@
       @media (min-width: $extra-large-devices) {
         span {
           position: absolute;
+          font-size: 4.5rem;
 
           &:first-child {
             top: 2.05em;

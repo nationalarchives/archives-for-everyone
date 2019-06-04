@@ -2,6 +2,10 @@
   background-color: rgba(38, 38, 42, 0.95);
   padding: 1.3rem;
 
+  @media (max-width: $small-devices) {
+      position: relative;
+  }
+
   img {
     margin-right: 2em;
 
