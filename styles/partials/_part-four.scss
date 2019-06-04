@@ -19,6 +19,9 @@
     }
 
     h2 {
+
+      font-size: 3em;
+
       @media (min-width: $medium-devices) {
         position: absolute;
         top: 4.7em;

@@ -58,7 +58,7 @@
       // Medium devices (tablets, 768px and up)
       @media (min-width: $medium-devices) {
         position: relative;
-        padding-top: 28.5em;
+        padding-top: 29.5em;
         background-image: url('../images/section-three-intro-background-medium.png');
         background-size: 100%;
         background-repeat: no-repeat;
@@ -79,7 +79,7 @@
 
         @media (min-width: $medium-devices) {
           position: absolute;
-          top: 3.7em;
+          top: 4em;
           border: 1px solid $palette-almost-black;
           padding: 0.9em;
           font-size: 3.4rem;

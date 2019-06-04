@@ -121,7 +121,7 @@ body .container .col-lg-6 {
   }
 }
 .part-one .intro h1 {
-  font-size: 3.4em;
+  font-size: 3em;
 }
 @media (min-width: 768px) {
   .part-one .intro h1 span {
@@ -208,9 +208,18 @@ body .container .col-lg-6 {
     font-size: 107%;
   }
 }
+@media (min-width: 768px) {
+  .part-one .final {
+    padding: 1em 1em 0 6em;
+    background-image: url("/section-one-number.38e980c7.png");
+    background-repeat: no-repeat;
+    background-size: 4.5em;
+    background-position: 0 0;
+  }
+}
 @media (min-width: 992px) {
   .part-one .final {
-    padding-top: 3em;
+    padding: 3em 0 0 0;
     background-image: url("/section-one-number.38e980c7.png");
     background-repeat: no-repeat;
     background-size: 6em;
@@ -256,6 +265,9 @@ body .container .col-lg-6 {
   .part-two .intro {
     padding-bottom: 56.5em;
   }
+}
+.part-two .intro h2 {
+  font-size: 3em;
 }
 @media (min-width: 768px) {
   .part-two .intro h2 {
@@ -461,7 +473,7 @@ body .container .col-lg-6 {
 @media (min-width: 768px) {
   .part-three .container #inclusive-archive {
     position: relative;
-    padding-top: 28.5em;
+    padding-top: 29.5em;
     background-image: url("/section-three-intro-background-medium.dca94e2c.png");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -483,7 +495,7 @@ body .container .col-lg-6 {
 @media (min-width: 768px) {
   .part-three .container #inclusive-archive h3 {
     position: absolute;
-    top: 3.7em;
+    top: 4em;
     border: 1px solid #26262a;
     padding: 0.9em;
     font-size: 3.4rem;
@@ -709,6 +721,9 @@ body .container .col-lg-6 {
     background-position: 30px top;
   }
 }
+.part-four .container h2 {
+  font-size: 3em;
+}
 @media (min-width: 768px) {
   .part-four .container h2 {
     position: absolute;
@@ -775,8 +790,17 @@ body .container .col-lg-6 {
 .part-five {
   background-color: #dde5d5;
 }
+.part-five h2 {
+  font-size: 3em;
+}
 .part-five .container {
   position: relative;
+}
+.part-five .container p:first-child {
+  border: 1px solid #26262a;
+  font-family: "Roboto Mono", monospace;
+  padding: 2em;
+  font-size: 1rem;
 }
 @media (min-width: 768px) {
   .part-five .container h2 {
@@ -787,12 +811,6 @@ body .container .col-lg-6 {
   }
   .part-five .container h2 span {
     display: block;
-  }
-  .part-five .container p:first-child {
-    border: 1px solid #26262a;
-    font-family: "Roboto Mono", monospace;
-    padding: 2em;
-    font-size: 1.2 rem;
   }
 }
 @media (min-width: 992px) {
