@@ -21,4 +21,16 @@ body {
     padding-top: 3em;
     padding-bottom: 3em;
   }
+
+  .container .col-lg-6 {
+    padding: 0;
+
+
+    @media (min-width: $medium-devices) {
+      .container .col-lg-6 {
+        padding: 0 15px;
+      }
+    }
+  }
 }
+

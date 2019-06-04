@@ -18,22 +18,41 @@ body div[class|=part] {
   padding-top: 3em;
   padding-bottom: 3em;
 }
+body .container .col-lg-6 {
+  padding: 0;
+}
+@media (min-width: 768px) {
+  body .container .col-lg-6 .container .col-lg-6 {
+    padding: 0 15px;
+  }
+}
 
 .masthead {
   background-color: rgba(38, 38, 42, 0.95);
   padding: 1.3rem;
 }
+.masthead img {
+  margin-right: 2em;
+}
+@media (min-width: 576px) {
+  .masthead img {
+    margin-bottom: 0;
+  }
+}
 .masthead a.navigation {
-  color: #26262a;
-  background: #dde5d5;
+  color: #dde5d5;
   font-size: 0.9em;
   font-family: "Roboto Mono", monospace;
   margin-top: 1rem;
-  padding: 0.4rem 0.7rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   .masthead a.navigation {
     margin-top: 0;
+    color: #26262a;
+    background: #dde5d5;
+    font-size: 0.9em;
+    font-family: "Roboto Mono", monospace;
+    padding: 0.4rem 0.7rem;
   }
 }
 
@@ -88,7 +107,13 @@ body div[class|=part] {
     padding-bottom: 44em;
   }
 }
+.part-one .intro h1 {
+  font-size: 3.4em;
+}
 @media (min-width: 768px) {
+  .part-one .intro h1 {
+    font-size: 4.5rem;
+  }
   .part-one .intro h1 span {
     position: absolute;
   }
@@ -199,7 +224,7 @@ body div[class|=part] {
 @media (min-width: 768px) {
   .part-two .intro {
     padding-bottom: 32.5em;
-    background-image: url("/section-two-intro-background-medium-2.d44c5e6e.png");
+    background-image: url("/section-two-intro-background-medium.3a54c30d.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: 30px top;
@@ -404,6 +429,9 @@ body div[class|=part] {
     min-height: 128em;
   }
 }
+.part-three .container #inclusive-archive {
+  margin-bottom: 4em;
+}
 @media (min-width: 768px) {
   .part-three .container #inclusive-archive {
     position: relative;
@@ -411,6 +439,7 @@ body div[class|=part] {
     background-image: url("/section-three-intro-background-medium.dca94e2c.png");
     background-size: 100%;
     background-repeat: no-repeat;
+    margin-bottom: 0;
   }
 }
 @media (min-width: 992px) {
@@ -421,6 +450,9 @@ body div[class|=part] {
     left: -1.5em;
     background: none;
   }
+}
+.part-three .container #inclusive-archive h3 {
+  font-size: 3.4rem;
 }
 @media (min-width: 768px) {
   .part-three .container #inclusive-archive h3 {
@@ -465,6 +497,9 @@ body div[class|=part] {
     font-size: 100%;
   }
 }
+.part-three .container #entrepreneurial-archive {
+  margin-bottom: 4em;
+}
 @media (min-width: 768px) {
   .part-three .container #entrepreneurial-archive {
     position: relative;
@@ -472,6 +507,7 @@ body div[class|=part] {
     background-image: url("/section-three-entrepreneurial-background-medium.98766d0d.png");
     background-size: 100%;
     background-repeat: no-repeat;
+    margin-bottom: 0;
   }
 }
 @media (min-width: 992px) {
@@ -502,6 +538,9 @@ body div[class|=part] {
     top: 20em;
     left: 11em;
   }
+}
+.part-three .container #entrepreneurial-archive h3 {
+  font-size: 3.4rem;
 }
 @media (min-width: 768px) {
   .part-three .container #entrepreneurial-archive h3 {
@@ -552,6 +591,9 @@ body div[class|=part] {
     top: 100em;
     left: 15.5em;
   }
+}
+.part-three .container #disruptive-archive h3 {
+  font-size: 3.4rem;
 }
 @media (min-width: 768px) {
   .part-three .container #disruptive-archive h3 {

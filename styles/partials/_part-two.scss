@@ -2,7 +2,7 @@
   background-color: $palette-pink;
 
   @media (min-width: $large-devices) {
-    padding-bottom: 0!important;
+    padding-bottom: 0 !important;
   }
 
   .intro {
@@ -12,7 +12,7 @@
     // Medium devices (tablets, 768px and up)
     @media (min-width: $medium-devices) {
       padding-bottom: 32.5em;
-      background-image: url('../images/section-two-intro-background-medium-2.png');
+      background-image: url('../images/section-two-intro-background-medium.png');
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: 30px top;

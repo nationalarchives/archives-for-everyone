@@ -53,7 +53,12 @@
 
     h1 {
 
+        font-size: 3.4em;
+
         @media (min-width: $medium-devices) {
+
+          font-size: 4.5rem;
+
           span {
               position: absolute;
 
