@@ -75,7 +75,7 @@
 
       h3 {
 
-        font-size: 3.4rem;
+        font-size: 1.8rem;
 
         @media (min-width: $medium-devices) {
           position: absolute;
@@ -93,9 +93,12 @@
           position: relative;
           top: 0;
           padding: 0;
-          font-size: 4.5rem;
+          font-size: 4rem;
           width: auto;
-
+        }
+        @media (min-width: $extra-large-devices) {
+          font-size: 4.5rem;
+          top: 0.3em;
         }
       }
 
@@ -162,7 +165,7 @@
 
       h3 {
 
-        font-size: 3.4rem;
+        font-size: 1.8rem;
 
         @media (min-width: $medium-devices) {
           position: absolute;
@@ -179,12 +182,17 @@
           background-color: transparent;
           border: 0;
           position: relative;
-          top: 0;
+          top: 0.3em;
+          left: 0.3em;
           right: auto;
           padding: 0;
-          font-size: 4.5rem;
+          font-size: 4rem;
           width: auto;
-
+        }
+        @media (min-width: $extra-large-devices) {
+          top: 0;
+          left: 0;
+          font-size: 4.5rem;
         }
       }
     }
@@ -215,7 +223,7 @@
 
       h3 {
 
-        font-size: 3.4rem;
+        font-size: 1.8rem;
 
         @media (min-width: $medium-devices) {
           position: absolute;
@@ -231,11 +239,15 @@
           background-color: transparent;
           border: 0;
           position: relative;
-          top: 0;
+          top: 0.3em;
           padding: 0;
-          font-size: 4.5rem;
+          font-size: 4rem;
           width: auto;
-
+        }
+        @media (min-width: $extra-large-devices) {
+          font-size: 4.5rem;
+          top: 0;
+          left: 0;
         }
       }
 
