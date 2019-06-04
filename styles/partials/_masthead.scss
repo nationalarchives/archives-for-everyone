@@ -6,6 +6,13 @@
       position: relative;
   }
 
+  .container-fluid {
+    padding: 0;
+
+    @media (min-width: $small-devices) {
+      padding: 0 15px;
+    }
+  }
   img {
     margin-right: 2em;
 

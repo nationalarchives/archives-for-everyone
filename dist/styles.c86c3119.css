@@ -36,6 +36,14 @@ body .container .col-lg-6 {
     position: relative;
   }
 }
+.masthead .container-fluid {
+  padding: 0;
+}
+@media (min-width: 576px) {
+  .masthead .container-fluid {
+    padding: 0 15px;
+  }
+}
 .masthead img {
   margin-right: 2em;
 }
