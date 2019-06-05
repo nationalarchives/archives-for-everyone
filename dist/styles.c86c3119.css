@@ -825,7 +825,7 @@ body .container .col-lg-6 {
     margin-left: 5vw;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .part-four .container #next-four-years li {
     margin-bottom: 1.5em !important;
   }
