@@ -54,6 +54,17 @@
     #inclusive-archive {
 
       margin-bottom: 4em;
+      position: relative;
+      padding-top: 60%;
+      background-image: url('../images/section-three-intro-background-small.png');
+      background-size: 99%;
+      background-repeat: no-repeat;
+      background-position: center top;
+
+      // Small devices (tablets, 567px and up)
+      @media (min-width: $small-devices) {
+        padding-top: 19em;
+      }
 
       // Medium devices (tablets, 768px and up)
       @media (min-width: $medium-devices) {
