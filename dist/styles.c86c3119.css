@@ -798,6 +798,13 @@ body .container .col-lg-6 {
   margin-bottom: 1.5em;
   width: 100%;
 }
+.part-four .container #next-four-years li:first-child {
+  margin-bottom: -1px;
+  background: rgba(221, 229, 213, 0.95) !important;
+}
+.part-four .container #next-four-years li:nth-child(5) {
+  background: rgba(249, 247, 226, 0.95) !important;
+}
 .part-four .container #next-four-years li:nth-child(3n+1) {
   background: rgba(249, 247, 226, 0.95);
 }
@@ -811,10 +818,16 @@ body .container .col-lg-6 {
 }
 .part-four .container #next-four-years li:nth-child(3n+3) {
   background: rgba(221, 229, 213, 0.95);
+  margin-bottom: -1px;
 }
 @media (min-width: 768px) {
   .part-four .container #next-four-years li:nth-child(3n+4) {
     margin-left: 5vw;
+  }
+}
+@media (max-width: 576px) {
+  .part-four .container #next-four-years li {
+    margin-bottom: 1.5em !important;
   }
 }
 .part-four .container h2 {
