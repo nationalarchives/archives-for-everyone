@@ -703,9 +703,21 @@ body .container .col-lg-6 {
 .part-four {
   background-color: #f9f7e2;
 }
+@media (min-width: 768px) {
+  .part-four {
+    padding-bottom: 1.5em !important;
+    background-image: url("/great-exhibition.4475c33a.png"), url("/art-class.09630c02.png"), url("/national-savings-bank.345c74e3.png");
+    background-size: 19em, 19em, 19em;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: left 57em, right 75em, left 93em;
+  }
+}
 @media (min-width: 992px) {
   .part-four {
-    background: linear-gradient(0deg, #f9f7e2 0%, #f9f7e2 97%, #252529 3%);
+    background-image: url("/great-exhibition.4475c33a.png"), url("/art-class.09630c02.png"), url("/national-savings-bank.345c74e3.png"), linear-gradient(0deg, #f9f7e2 0%, #f9f7e2 97%, #252529 3%);
+    background-size: 19em, 19em, 19em, auto;
+    background-repeat: no-repeat, no-repeat, no-repeat, repeat-x;
+    background-position: 9% 53em, 91% 70em, 9% 87em, top left;
     padding-top: 0 !important;
   }
 }
@@ -719,6 +731,36 @@ body .container .col-lg-6 {
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: 30px top;
+  }
+}
+.part-four .container #next-four-years {
+  padding: 0;
+  list-style-type: none;
+  font-family: "Roboto Mono", monospace;
+}
+.part-four .container #next-four-years li {
+  padding: 1.7em;
+  border: 1px solid black;
+  margin-bottom: 1.5em;
+  width: 100%;
+}
+.part-four .container #next-four-years li:nth-child(3n+1) {
+  background: #fad3d4;
+}
+.part-four .container #next-four-years li:nth-child(3n+2) {
+  background: #f9f7e2;
+}
+@media (min-width: 768px) {
+  .part-four .container #next-four-years li:nth-child(3n+2) {
+    margin-left: -5vw;
+  }
+}
+.part-four .container #next-four-years li:nth-child(3n+3) {
+  background: #dde5d5;
+}
+@media (min-width: 768px) {
+  .part-four .container #next-four-years li:nth-child(3n+4) {
+    margin-left: 5vw;
   }
 }
 .part-four .container h2 {
@@ -773,7 +815,7 @@ body .container .col-lg-6 {
   .part-four .container {
     color: #000;
     padding: 0;
-    min-height: 85em;
+    min-height: 129em;
     background: url("/section-four-background.1edbc358.png") no-repeat center top;
     background-size: 100%;
   }
@@ -783,7 +825,7 @@ body .container .col-lg-6 {
 }
 @media (min-width: 1200px) {
   .part-four .container {
-    min-height: 81em;
+    min-height: 124em;
   }
 }
 
