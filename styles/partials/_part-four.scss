@@ -3,14 +3,14 @@
 
   @media (min-width: $medium-devices) {
     padding-bottom: 1.5em !important;
-    background-image: url('../images/great-exhibition.png'), url('../images/art-class.png'), url('../images/national-savings-bank.png');
+    background-image: url('../images/section-four-list-bg-img-1.png'), url('../images/section-four-list-bg-img-2.jpg'), url('../images/section-four-list-bg-img-3.png');
     background-size: 19em, 19em, 19em;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: left 57em, right 75em, left 93em;
   }
 
   @media (min-width: $large-devices) {
-    background-image: url('../images/great-exhibition.png'), url('../images/art-class.png'), url('../images/national-savings-bank.png'), linear-gradient(0deg, rgba(249, 247, 226, 1) 0%, rgba(249, 247, 226, 1) 97%, rgba(37, 37, 41, 1) 3%);
+    background-image: url('../images/section-four-list-bg-img-1.png'), url('../images/section-four-list-bg-img-2.jpg'), url('../images/section-four-list-bg-img-3.png'), linear-gradient(0deg, rgba(249, 247, 226, 1) 0%, rgba(249, 247, 226, 1) 97%, rgba(37, 37, 41, 1) 3%);
     background-size: 19em, 19em, 19em, auto;
     background-repeat: no-repeat, no-repeat, no-repeat, repeat-x;
     background-position: 9% 53em, 91% 70em, 9% 87em, top left;
