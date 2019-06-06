@@ -2,16 +2,39 @@
   background-color: rgba(38, 38, 42, 0.95);
   padding: 1.3rem;
 
+  @media (max-width: $small-devices) {
+      position: relative;
+  }
+
+  .container-fluid {
+    padding: 0;
+
+    @media (min-width: $small-devices) {
+      padding: 0 15px;
+    }
+  }
+  img {
+    margin-right: 2em;
+
+    @media (min-width: $small-devices) {
+      margin-bottom: 0;
+    }
+  }
+
   a.navigation {
-    color: $palette-almost-black;
-    background: $palette-green;
+    color: $palette-green;
     font-size: 0.9em;
     font-family: "Roboto Mono", monospace;
     margin-top: 1rem;
-    padding: 0.4rem 0.7rem;
 
-    @media (min-width: $medium-devices) {
+    @media (min-width: $small-devices) {
       margin-top: 0;
+      color: $palette-almost-black;
+      background: $palette-green;
+      font-size: 0.9em;
+      font-family: "Roboto Mono", monospace;
+      padding: 0.4rem 0.7rem;
+
     }
   }
 }

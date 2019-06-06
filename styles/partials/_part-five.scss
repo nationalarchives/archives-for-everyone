@@ -1,8 +1,47 @@
 .part-five {
   background-color: $palette-green;
 
+  h2 {
+    font-size: 2.4em;
+
+    @media (min-width: $small-devices) {
+      font-size: 2.8em;
+    }
+  }
   .container {
     position: relative;
+    padding-top: 45%;
+    background-image: url('../images/section-five-background-small.png');
+    background-size: 98%;
+    background-repeat: no-repeat;
+    background-position: center top;
+
+    // Medium devices (tablets, 567px and up)
+    @media (min-width: $small-devices) {
+      padding-top: 15em;
+    }
+
+    p:first-child {
+      border: 1px solid $palette-almost-black;
+      font-family: "Roboto Mono", monospace;
+      padding: 2em;
+      font-size: 1rem;
+    }
+
+    @media (min-width: $medium-devices) {
+
+      h2 {
+        position: absolute;
+        left: 3.4em;
+        top: 2.2em;
+        font-size: 3.2rem;
+
+        span {
+          display: block;
+        }
+      }
+
+    }
 
     @media (min-width: $large-devices) {
 
@@ -10,10 +49,17 @@
         position: absolute;
         left: 4em;
         top: 5.2em;
+        font-size: 3.5rem;
 
         span {
           display: block;
         }
+      }
+      p:first-child {
+        border: none;
+        padding: 0;
+        font-family: "Open Sans", sans-serif;
+        font-size: 1rem;
       }
     }
 
@@ -78,8 +124,14 @@
       }
 
     }
+    @media (min-width: $medium-devices) {
+      padding-top: 27em;
+      background: url('../images/section-five-background-medium.png') no-repeat center top;
+      background-size: 96.5%;
+    }
 
     @media (min-width: $large-devices) {
+      padding: 0;
       min-height: 85em;
       background: url('../images/section-five-background.png') no-repeat center top;
       background-size: 100%;

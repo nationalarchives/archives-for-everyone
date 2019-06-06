@@ -2,12 +2,32 @@
   background-color: $palette-pink;
 
   @media (min-width: $large-devices) {
-    padding-bottom: 0!important;
+    padding-bottom: 0 !important;
   }
 
   .intro {
 
     position: relative;
+    padding-top: 55%;
+    background-image: url('../images/section-two-intro-background-small.png');
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position: center top;
+
+    // Small devices (tablets, 567px and up)
+    @media (min-width: $small-devices) {
+      padding-top: 19em;
+    }
+
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: $medium-devices) {
+      padding-top: 0;
+      padding-bottom: 32.5em;
+      background-image: url('../images/section-two-intro-background-medium.png');
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: 30px top;
+    }
 
     // Large devices (desktops, 992px and up)
     @media (min-width: $large-devices) {
@@ -23,10 +43,28 @@
     }
 
     h2 {
+
+      font-size: 2.4em;
+
+      @media (min-width: $small-devices) {
+        font-size: 2.8em;
+      }
+
+      @media (min-width: $medium-devices) {
+        position: absolute;
+        top: 4.7em;
+        border: 1px solid $palette-almost-black;
+        padding: 0.9em;
+        font-size: 3.5em;
+        width: auto;
+      }
       @media (min-width: $large-devices) {
         position: absolute;
         top: 9em;
+        left: auto;
         width: 4em;
+        border: 0;
+        padding: 0;
       }
 
       @media (min-width: $extra-large-devices) {
@@ -37,6 +75,14 @@
 
 
   .final {
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: $medium-devices) {
+      padding-bottom: 23.5em;
+      background-image: url('../images/section-two-list-background-medium.png');
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: center bottom;
+    }
     // Large devices (desktops, 992px and up)
     @media (min-width: $large-devices) {
       padding-bottom: 32.5em;
@@ -53,51 +99,74 @@
 
     .we-must-be {
       ul {
-        position: relative;
+        position: absolute;
         padding: 0;
 
-        li {
-          font-family: supria-sans-condensed, sans-serif;
+        @media (max-width: $large-devices) {
+          position: relative;
+        }
 
-          @media (max-width: $large-devices) {
-            border: 1px solid black;
-            padding: 1em;
-            list-style-type: none;
-            margin-bottom: 1em;
-            font-size: 1.5em;
+        li {
+          position: relative;
+          font-family: supria-sans-condensed, sans-serif;
+          list-style-type: none;
+          padding: 0.7em;
+          margin-bottom: 1em;
+          border: 1px solid $palette-almost-black;
+
+          &:first-child {
+            background-color: $palette-cream;
+          }
+          &:nth-child(2) {
+            background-color: $palette-green;
+          }
+          &:nth-child(3) {
+            background-color: $palette-pink;
+          }
+          @media (min-width: $medium-devices) {
+            font-size: 1.4em;
+            position: absolute;
 
             &:first-child {
               background-color: $palette-cream;
-              margin-left: -2em;
-              margin-right: 2em;
+              top: 2.2em;
+              left: 3.2em;
+              width: 9.94em;
             }
 
             &:nth-child(2) {
               background-color: $palette-green;
-              margin-left: 0em;
-              margin-right: 0em;
+              top: 4.45em;
+              left: 13.1em;
+              width: 13.2em;
             }
 
             &:nth-child(3) {
-              margin-left: -2em;
-              margin-right: 2em;
+              background-color: $palette-pink;
+              top: 8.84em;
+              left: 6.5em;
+              width: 9.94em;
             }
           }
 
           @media (min-width: $large-devices) {
             list-style-type: none;
             font-size: 2em;
+            padding: 0;
             position: absolute;
+            border: 0;
+            background-color: transparent !important;
 
             &:first-child {
               max-width: 10em;
               top: 1.8em;
-              left: -3.5em;
+              left: -3.2em;
+              width: 10em;
             }
 
             &:nth-child(2) {
               top: 3.6em;
-              left: 4.7em;
+              left: 5.1em;
               width: 12em;
             }
 
@@ -116,7 +185,7 @@
             &:first-child {
               max-width: 10em;
               top: 2.8em;
-              left: -4em;
+              left: -3.5em;
             }
 
             &:nth-child(2) {

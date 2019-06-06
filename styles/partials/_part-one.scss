@@ -26,10 +26,31 @@
   }
 
   .intro {
-    position: relative;
+      position: relative;
+      padding-top: 45%;
+      background-image: url('../images/section-one-intro-background-bg-small.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center top;
+
+      // Medium devices (tablets, 567px and up)
+      @media (min-width: $small-devices) {
+        padding-top: 15em;
+      }
+
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: $medium-devices) {
+      padding-top: 0;
+      padding-bottom: 34em;
+      background-image: url('../images/section-one-intro-background-bg-medium.png');
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: center top;
+    }
 
     // Large devices (desktops, 992px and up)
     @media (min-width: $large-devices) {
+      padding-top: 0;
       padding-bottom: 37em;
       background-image: url('../images/section-one-intro-background.png');
       background-size: 100%;
@@ -42,31 +63,63 @@
     }
 
     h1 {
-      @media (min-width: $large-devices) {
-        span {
-          position: absolute;
 
-          &:first-child {
-            top: 1.58em;
-            left: 1.3em;
-          }
+      font-size: 2.4em;
 
-          &:nth-child(2) {
-            top: 2.37em;
-            left: 4.33em;
-          }
+      @media (min-width: $small-devices) {
+        font-size: 2.8em;
+      }
 
-          &:nth-child(3) {
-            top: 3.15em;
-            left: 0em;
+        @media (min-width: $medium-devices) {
+
+          span {
+            position: absolute;
+            font-size: 4.5rem;
+
+            &:first-child {
+              top: 1.24em;
+              left: 1em;
+            }
+
+            &:nth-child(2) {
+              top: 2.3em;
+              left: 3.9em;
+            }
+
+            &:nth-child(3) {
+              top: 3.35em;
+              left: 0.55em;
+            }
           }
         }
-      }
+
+        @media (min-width: $large-devices) {
+          span {
+            position: absolute;
+            font-size: 3.8rem;
+
+              &:first-child {
+                top: 2.04em;
+                left: 1.3em;
+              }
+
+              &:nth-child(2) {
+                top: 2.96em;
+                left: 4.33em;
+              }
+
+              &:nth-child(3) {
+                top: 3.9em;
+                left: 0em;
+              }
+          }
+        }
 
 
       @media (min-width: $extra-large-devices) {
         span {
           position: absolute;
+          font-size: 4.5rem;
 
           &:first-child {
             top: 2.05em;
@@ -88,6 +141,12 @@
     }
 
     .callout {
+      @media (min-width: $medium-devices) {
+        position: absolute;
+        top: 19.1em;
+        left: 0.2em;
+        width: 98.9%;
+      }
       @media (min-width: $large-devices) {
         border: none;
         letter-spacing: -0.5px;
@@ -96,6 +155,7 @@
         left: 21em;
         min-width: 21em;
         font-size: 90%;
+        width: auto;
       }
 
       @media (min-width: $extra-large-devices) {
@@ -111,8 +171,17 @@
   }
 
   .final {
+
+    @media (min-width: $medium-devices) {
+      padding: 1em 1em 0 6em;
+      background-image: url('../images/section-one-number.png');
+      background-repeat: no-repeat;
+      background-size: 4.5em;
+      background-position: 0 0;
+    }
+
     @media (min-width: $large-devices) {
-      padding-top: 3em;
+      padding: 3em 0 0 0;
       background-image: url('../images/section-one-number.png');
       background-repeat: no-repeat;
       background-size: 6em;

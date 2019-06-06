@@ -32,12 +32,14 @@
 
   .container {
 
+
     @media (min-width: $large-devices) {
       color: #000;
       min-height: 108em;
       background: url('../images/section-three-intro-background.png') no-repeat center top,
       url('../images/section-three-end-background.png') no-repeat center bottom;
       background-size: 100%;
+      padding-bottom: 0;
 
       .display-3 {
         line-height: 1;
@@ -50,10 +52,65 @@
     }
 
     #inclusive-archive {
+
+      margin-bottom: 4em;
+      position: relative;
+      padding-top: 60%;
+      background-image: url('../images/section-three-intro-background-small.png');
+      background-size: 99%;
+      background-repeat: no-repeat;
+      background-position: center top;
+
+      // Small devices (tablets, 567px and up)
+      @media (min-width: $small-devices) {
+        padding-top: 19em;
+      }
+
+      // Medium devices (tablets, 768px and up)
+      @media (min-width: $medium-devices) {
+        position: relative;
+        padding-top: 29.5em;
+        background-image: url('../images/section-three-intro-background-medium.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-bottom: 0;
+      }
+
       @media (min-width: $large-devices) {
+        padding: 0;
         position: absolute;
         top: 11.5em;
         left: -1.5em;
+        background: none;
+      }
+
+      h3 {
+
+        font-size: 1.8rem;
+
+        @media (min-width: $medium-devices) {
+          position: absolute;
+          top: 4em;
+          border: 1px solid $palette-almost-black;
+          padding: 0.9em;
+          font-size: 3.4rem;
+          width: 85%;
+          color: $palette-almost-black;
+          background-color: $palette-cream;
+        }
+        @media (min-width: $large-devices) {
+          background-color: transparent;
+          border: 0;
+          position: relative;
+          top: 0;
+          padding: 0;
+          font-size: 4rem;
+          width: auto;
+        }
+        @media (min-width: $extra-large-devices) {
+          font-size: 4.5rem;
+          top: 0.3em;
+        }
       }
 
       p {
@@ -75,10 +132,25 @@
     }
 
     #entrepreneurial-archive {
+
+      margin-bottom: 4em;
+
+      // Medium devices (tablets, 768px and up)
+      @media (min-width: $medium-devices) {
+        position: relative;
+        padding-top: 28.5em;
+        background-image: url('../images/section-three-entrepreneurial-background-medium.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-bottom: 0;
+      }
+
       @media (min-width: $large-devices) {
+        padding: 0;
         position: absolute;
         top: 46em;
         left: 0em;
+        background: none;
 
         p {
           position: absolute;
@@ -101,19 +173,93 @@
           left: 11em;
         }
       }
+
+      h3 {
+
+        font-size: 1.8rem;
+
+        @media (min-width: $medium-devices) {
+          position: absolute;
+          top: 2.4em;
+          right: 0;
+          border: 1px solid $palette-almost-black;
+          padding: 0.9em;
+          font-size: 3.4rem;
+          width: 85%;
+          color: $palette-almost-black;
+          background-color: $palette-green;
+        }
+        @media (min-width: $large-devices) {
+          background-color: transparent;
+          border: 0;
+          position: relative;
+          top: 0.3em;
+          left: 0.3em;
+          right: auto;
+          padding: 0;
+          font-size: 4rem;
+          width: auto;
+        }
+        @media (min-width: $extra-large-devices) {
+          top: 0;
+          left: 0;
+          font-size: 4.5rem;
+        }
+      }
     }
 
     #disruptive-archive {
+
+      // Medium devices (tablets, 768px and up)
+      @media (min-width: $medium-devices) {
+        position: relative;
+        padding-top: 24.5em;
+        background-image: url('../images/section-three-disruptive-background-medium.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
       @media (min-width: $large-devices) {
         position: absolute;
         top: 83em;
         left: 12.5em;
+        padding: 0;
+        background: none;
       }
 
       @media (min-width: $extra-large-devices) {
         position: absolute;
         top: 100em;
         left: 15.5em;
+      }
+
+      h3 {
+
+        font-size: 1.8rem;
+
+        @media (min-width: $medium-devices) {
+          position: absolute;
+          top: 1.3em;
+          border: 1px solid $palette-almost-black;
+          padding: 0.9em;
+          font-size: 3.4rem;
+          width: 85%;
+          color: $palette-almost-black;
+          background-color: $palette-pink;
+        }
+        @media (min-width: $large-devices) {
+          background-color: transparent;
+          border: 0;
+          position: relative;
+          top: 0.3em;
+          padding: 0;
+          font-size: 4rem;
+          width: auto;
+        }
+        @media (min-width: $extra-large-devices) {
+          font-size: 4.5rem;
+          top: 0;
+          left: 0;
+        }
       }
 
       p {
