@@ -6,7 +6,6 @@
   }
 
   .intro {
-
     position: relative;
     padding-top: 55%;
     background-image: url('../images/section-two-intro-background-small.png');
@@ -161,13 +160,13 @@
               max-width: 10em;
               top: 1.8em;
               left: -3.2em;
-              width: 10em;
+              width: 7em;
             }
 
             &:nth-child(2) {
               top: 3.6em;
               left: 5.1em;
-              width: 12em;
+              width: 10em;
             }
 
             &:nth-child(3) {
@@ -183,7 +182,7 @@
             position: absolute;
 
             &:first-child {
-              max-width: 10em;
+              max-width: 8em;
               top: 2.8em;
               left: -3.5em;
             }

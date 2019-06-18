@@ -1,28 +1,31 @@
-body {
+html {
+  font-size: 16px;
+}
+html body {
   font-family: "Open Sans", sans-serif;
 }
-body h1, body h2, body h3 {
+html body h1, html body h2, html body h3 {
   font-family: supria-sans-condensed, sans-serif;
   font-weight: 500;
   text-transform: uppercase;
 }
-body .callout {
+html body .callout {
   font-family: "Roboto Mono", monospace;
   border: 1px solid black;
   padding: 2em;
 }
-body strong {
+html body strong {
   font-weight: 700;
 }
-body div[class|=part] {
+html body div[class|=part] {
   padding-top: 3em;
   padding-bottom: 3em;
 }
-body .container .col-lg-6 {
+html body .container .col-lg-6 {
   padding: 0;
 }
 @media (min-width: 768px) {
-  body .container .col-lg-6 .container .col-lg-6 {
+  html body .container .col-lg-6 .container .col-lg-6 {
     padding: 0 15px;
   }
 }
@@ -181,7 +184,7 @@ body .container .col-lg-6 {
     font-size: 4.5rem;
   }
   .part-one .intro h1 span:first-child {
-    top: 2.05em;
+    top: 2.06em;
     left: 1.8em;
   }
   .part-one .intro h1 span:nth-child(2) {
@@ -412,12 +415,12 @@ body .container .col-lg-6 {
     max-width: 10em;
     top: 1.8em;
     left: -3.2em;
-    width: 10em;
+    width: 7em;
   }
   .part-two .final .we-must-be ul li:nth-child(2) {
     top: 3.6em;
     left: 5.1em;
-    width: 12em;
+    width: 10em;
   }
   .part-two .final .we-must-be ul li:nth-child(3) {
     top: 7.3em;
@@ -432,7 +435,7 @@ body .container .col-lg-6 {
     position: absolute;
   }
   .part-two .final .we-must-be ul li:first-child {
-    max-width: 10em;
+    max-width: 8em;
     top: 2.8em;
     left: -3.5em;
   }
