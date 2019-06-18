@@ -1,29 +1,31 @@
-body {
-  font-family: "Open Sans", sans-serif;
+html {
   font-size: 16px;
 }
-body h1, body h2, body h3 {
+html body {
+  font-family: "Open Sans", sans-serif;
+}
+html body h1, html body h2, html body h3 {
   font-family: supria-sans-condensed, sans-serif;
   font-weight: 500;
   text-transform: uppercase;
 }
-body .callout {
+html body .callout {
   font-family: "Roboto Mono", monospace;
   border: 1px solid black;
   padding: 2em;
 }
-body strong {
+html body strong {
   font-weight: 700;
 }
-body div[class|=part] {
+html body div[class|=part] {
   padding-top: 3em;
   padding-bottom: 3em;
 }
-body .container .col-lg-6 {
+html body .container .col-lg-6 {
   padding: 0;
 }
 @media (min-width: 768px) {
-  body .container .col-lg-6 .container .col-lg-6 {
+  html body .container .col-lg-6 .container .col-lg-6 {
     padding: 0 15px;
   }
 }
@@ -182,7 +184,7 @@ body .container .col-lg-6 {
     font-size: 4.5rem;
   }
   .part-one .intro h1 span:first-child {
-    top: 2.05em;
+    top: 2.06em;
     left: 1.8em;
   }
   .part-one .intro h1 span:nth-child(2) {
