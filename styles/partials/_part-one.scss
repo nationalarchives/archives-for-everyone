@@ -192,4 +192,34 @@
       background-position: 10em 0;
     }
   }
+
+  .update {
+
+    border: 2px solid $palette-almost-black;
+    padding: 2em;
+    width: 100%;
+    margin: 2em 0;
+    text-align: center;
+    font-size: 1.2em;
+
+    @media (min-width: $large-devices) {
+      width: 91.5%;
+      margin: 2em 1em 2em 2em;
+    }
+
+    @media (min-width: $extra-large-devices) {
+      width: 92%;
+      margin: 2em 1em 2em 2.3em;
+    }
+
+    .primary-action {
+      display: inline-block;
+      margin: 0.5em 0;
+      padding: 15px;
+      background-color: $palette-almost-black;
+      color: $palette-green;
+      font-family: "Roboto Mono", monospace;
+    }
+
+  }
 }
