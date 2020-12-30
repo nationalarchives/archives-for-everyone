@@ -3,7 +3,7 @@
 
 ## Development machine configuration
 
-This is a simple HTML site so should be entirely portable. **Just be sure not to include the `.git` directory in the production server.
+This is a simple HTML site so should be entirely portable. **Just be sure not to include the `.git` directory in the production server**.
 
 Steps: 
 
