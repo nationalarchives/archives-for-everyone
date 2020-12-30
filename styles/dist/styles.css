@@ -77,7 +77,7 @@ html body .container .col-lg-6 {
 }
 @media (min-width: 992px) {
   .part-one .map-container {
-    background-image: url("/section-one-map.1127c28d.jpg");
+    background-image: url("../../images/section-one-map.jpg");
     background-position: bottom left;
     background-repeat: no-repeat;
     background-size: 13em;
@@ -99,7 +99,7 @@ html body .container .col-lg-6 {
 .part-one .intro {
   position: relative;
   padding-top: 45%;
-  background-image: url("/section-one-intro-background-bg-small.0c518c6b.png");
+  background-image: url("../../images/section-one-intro-background-bg-small.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center top;
@@ -113,7 +113,7 @@ html body .container .col-lg-6 {
   .part-one .intro {
     padding-top: 0;
     padding-bottom: 34em;
-    background-image: url("/section-one-intro-background-bg-medium.255521fe.png");
+    background-image: url("../../images/section-one-intro-background-bg-medium.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center top;
@@ -123,7 +123,7 @@ html body .container .col-lg-6 {
   .part-one .intro {
     padding-top: 0;
     padding-bottom: 37em;
-    background-image: url("/section-one-intro-background.261d8b29.png");
+    background-image: url("../../images/section-one-intro-background.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center top;
@@ -230,7 +230,7 @@ html body .container .col-lg-6 {
 @media (min-width: 768px) {
   .part-one .final {
     padding: 1em 1em 0 6em;
-    background-image: url("/section-one-number.38e980c7.png");
+    background-image: url("../../images/section-one-number.png");
     background-repeat: no-repeat;
     background-size: 4.5em;
     background-position: 0 0;
@@ -239,7 +239,7 @@ html body .container .col-lg-6 {
 @media (min-width: 992px) {
   .part-one .final {
     padding: 3em 0 0 0;
-    background-image: url("/section-one-number.38e980c7.png");
+    background-image: url("../../images/section-one-number.png");
     background-repeat: no-repeat;
     background-size: 6em;
     background-position: 7em 0;
@@ -290,7 +290,7 @@ html body .container .col-lg-6 {
 .part-two .intro {
   position: relative;
   padding-top: 55%;
-  background-image: url("/section-two-intro-background-small.183927c7.png");
+  background-image: url("../../images/section-two-intro-background-small.png");
   background-size: 95%;
   background-repeat: no-repeat;
   background-position: center top;
@@ -304,7 +304,7 @@ html body .container .col-lg-6 {
   .part-two .intro {
     padding-top: 0;
     padding-bottom: 32.5em;
-    background-image: url("/section-two-intro-background-medium.3a54c30d.png");
+    background-image: url("../../images/section-two-intro-background-medium.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: 30px top;
@@ -313,7 +313,7 @@ html body .container .col-lg-6 {
 @media (min-width: 992px) {
   .part-two .intro {
     padding-bottom: 47.5em;
-    background-image: url("/section-two-intro-background.a3b75140.png");
+    background-image: url("../../images/section-two-intro-background.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center top;
@@ -360,7 +360,7 @@ html body .container .col-lg-6 {
 @media (min-width: 768px) {
   .part-two .final {
     padding-bottom: 23.5em;
-    background-image: url("/section-two-list-background-medium.a04eaf34.png");
+    background-image: url("../../images/section-two-list-background-medium.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -369,7 +369,7 @@ html body .container .col-lg-6 {
 @media (min-width: 992px) {
   .part-two .final {
     padding-bottom: 32.5em;
-    background-image: url("/section-two-list-background.f92e4941.png");
+    background-image: url("../../images/section-two-list-background.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -500,14 +500,14 @@ html body .container .col-lg-6 {
 }
 @media (min-width: 992px) {
   .part-three {
-    background-image: url("/section-three-top-strip-large.911b9775.png");
+    background-image: url("../../images/section-three-top-strip-large.png");
     background-repeat: repeat-x;
     background-position: center top;
   }
 }
 @media (min-width: 1200px) {
   .part-three {
-    background-image: url("/section-three-top-strip-extra-large.6aa44890.png");
+    background-image: url("../../images/section-three-top-strip-extra-large.png");
     background-repeat: repeat-x;
     background-position: center top;
   }
@@ -516,7 +516,7 @@ html body .container .col-lg-6 {
   .part-three .container {
     color: #000;
     min-height: 108em;
-    background: url("/section-three-intro-background.4547d55f.png") no-repeat center top, url("/section-three-end-background.d80d4ad5.png") no-repeat center bottom;
+    background: url("../../images/section-three-intro-background.png") no-repeat center top, url("../../images/section-three-end-background.png") no-repeat center bottom;
     background-size: 100%;
     padding-bottom: 0;
   }
@@ -534,7 +534,7 @@ html body .container .col-lg-6 {
   margin-bottom: 4em;
   position: relative;
   padding-top: 60%;
-  background-image: url("/section-three-intro-background-small.5b82a0be.png");
+  background-image: url("../../images/section-three-intro-background-small.png");
   background-size: 99%;
   background-repeat: no-repeat;
   background-position: center top;
@@ -548,7 +548,7 @@ html body .container .col-lg-6 {
   .part-three .container #inclusive-archive {
     position: relative;
     padding-top: 29.5em;
-    background-image: url("/section-three-intro-background-medium.dca94e2c.png");
+    background-image: url("../../images/section-three-intro-background-medium.png");
     background-size: 100%;
     background-repeat: no-repeat;
     margin-bottom: 0;
@@ -622,7 +622,7 @@ html body .container .col-lg-6 {
   .part-three .container #entrepreneurial-archive {
     position: relative;
     padding-top: 28.5em;
-    background-image: url("/section-three-entrepreneurial-background-medium.98766d0d.png");
+    background-image: url("../../images/section-three-entrepreneurial-background-medium.png");
     background-size: 100%;
     background-repeat: no-repeat;
     margin-bottom: 0;
@@ -697,7 +697,7 @@ html body .container .col-lg-6 {
   .part-three .container #disruptive-archive {
     position: relative;
     padding-top: 24.5em;
-    background-image: url("/section-three-disruptive-background-medium.ce82b0c2.png");
+    background-image: url("../../images/section-three-disruptive-background-medium.png");
     background-size: 100%;
     background-repeat: no-repeat;
   }
@@ -780,7 +780,7 @@ html body .container .col-lg-6 {
 @media (min-width: 768px) {
   .part-four {
     padding-bottom: 1.5em !important;
-    background-image: url("/section-four-list-bg-img-1.f80e1b3e.png"), url("/section-four-list-bg-img-2.5fbe402d.jpg"), url("/section-four-list-bg-img-3.220e8bcc.png");
+    background-image: url("../../images/section-four-list-bg-img-1.png"), url("../../images/section-four-list-bg-img-2.jpg"), url("../../images/section-four-list-bg-img-3.png");
     background-size: 19em, 19em, 19em;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: left 57em, right 75em, left 93em;
@@ -788,7 +788,7 @@ html body .container .col-lg-6 {
 }
 @media (min-width: 992px) {
   .part-four {
-    background-image: url("/section-four-list-bg-img-1.f80e1b3e.png"), url("/section-four-list-bg-img-2.5fbe402d.jpg"), url("/section-four-list-bg-img-3.220e8bcc.png"), linear-gradient(0deg, #f9f7e2 0%, #f9f7e2 97%, #252529 3%);
+    background-image: url("../../images/section-four-list-bg-img-1.png"), url("../../images/section-four-list-bg-img-2.jpg"), url("../../images/section-four-list-bg-img-3.png"), linear-gradient(0deg, #f9f7e2 0%, #f9f7e2 97%, #252529 3%);
     background-size: 19em, 19em, 19em, auto;
     background-repeat: no-repeat, no-repeat, no-repeat, repeat-x;
     background-position: 9% 53em, 91% 70em, 9% 87em, top left;
@@ -798,7 +798,7 @@ html body .container .col-lg-6 {
 .part-four .container {
   position: relative;
   padding-top: 55%;
-  background-image: url("/section-four-background-small.3d665488.png");
+  background-image: url("../../images/section-four-background-small.png");
   background-size: 95%;
   background-repeat: no-repeat;
   background-position: center top;
@@ -812,7 +812,7 @@ html body .container .col-lg-6 {
   .part-four .container {
     padding-top: 0;
     padding-bottom: 0;
-    background-image: url("/section-four-background-medium.3cd330f4.png");
+    background-image: url("../../images/section-four-background-medium.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: 30px top;
@@ -919,7 +919,7 @@ html body .container .col-lg-6 {
     color: #000;
     padding: 0;
     min-height: 129em;
-    background: url("/section-four-background.1edbc358.png") no-repeat center top;
+    background: url("../../images/section-four-background.png") no-repeat center top;
     background-size: 100%;
   }
   .part-four .container .display-3 {
@@ -946,7 +946,7 @@ html body .container .col-lg-6 {
 .part-five .container {
   position: relative;
   padding-top: 45%;
-  background-image: url("/section-five-background-small.5ca5355b.png");
+  background-image: url("../../images/section-five-background-small.png");
   background-size: 98%;
   background-repeat: no-repeat;
   background-position: center top;
@@ -1040,7 +1040,7 @@ html body .container .col-lg-6 {
 @media (min-width: 768px) {
   .part-five .container {
     padding-top: 27em;
-    background: url("/section-five-background-medium.fc26dadf.png") no-repeat center top;
+    background: url("../../images/section-five-background-medium.png") no-repeat center top;
     background-size: 96.5%;
   }
 }
@@ -1048,58 +1048,9 @@ html body .container .col-lg-6 {
   .part-five .container {
     padding: 0;
     min-height: 85em;
-    background: url("/section-five-background.0798769f.png") no-repeat center top;
+    background: url("../../images/section-five-background.png") no-repeat center top;
     background-size: 100%;
   }
 }
 
-.slide-from-left {
-  animation-duration: 700ms;
-  animation-timing-function: ease-out;
-  animation-name: slidefromleft;
-}
-
-.slide-from-right {
-  animation-duration: 700ms;
-  animation-timing-function: ease-out;
-  animation-name: slidefromright;
-}
-
-.fade-in {
-  animation-duration: 700ms;
-  animation-timing-function: ease-out;
-  animation-name: fadein;
-}
-
-@keyframes slidefromleft {
-  from {
-    transform: translate(-100px);
-    opacity: 0;
-  }
-  to {
-    transform: translate(0px);
-    opacity: 1;
-  }
-}
-@keyframes slidefromright {
-  from {
-    transform: translate(100px);
-    opacity: 0;
-  }
-  to {
-    transform: translate(0px);
-    opacity: 1;
-  }
-}
-@keyframes fadein {
-  from {
-    opacity: 0;
-    transform: scale(0.9);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-/*# sourceMappingURL=/styles.c86c3119.css.map */
+/*# sourceMappingURL=styles.css.map */

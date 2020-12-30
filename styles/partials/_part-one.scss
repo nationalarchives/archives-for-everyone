@@ -4,7 +4,7 @@
   .map-container {
 
     @media (min-width: $large-devices) {
-      background-image: url('../images/section-one-map.jpg');
+      background-image: url('../../images/section-one-map.jpg');
       background-position: bottom left;
       background-repeat: no-repeat;
       background-size: 13em;
@@ -28,7 +28,7 @@
   .intro {
       position: relative;
       padding-top: 45%;
-      background-image: url('../images/section-one-intro-background-bg-small.png');
+      background-image: url('../../images/section-one-intro-background-bg-small.png');
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center top;
@@ -42,7 +42,7 @@
     @media (min-width: $medium-devices) {
       padding-top: 0;
       padding-bottom: 34em;
-      background-image: url('../images/section-one-intro-background-bg-medium.png');
+      background-image: url('../../images/section-one-intro-background-bg-medium.png');
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center top;
@@ -52,7 +52,7 @@
     @media (min-width: $large-devices) {
       padding-top: 0;
       padding-bottom: 37em;
-      background-image: url('../images/section-one-intro-background.png');
+      background-image: url('../../images/section-one-intro-background.png');
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center top;
@@ -174,7 +174,7 @@
 
     @media (min-width: $medium-devices) {
       padding: 1em 1em 0 6em;
-      background-image: url('../images/section-one-number.png');
+      background-image: url('../../images/section-one-number.png');
       background-repeat: no-repeat;
       background-size: 4.5em;
       background-position: 0 0;
@@ -182,7 +182,7 @@
 
     @media (min-width: $large-devices) {
       padding: 3em 0 0 0;
-      background-image: url('../images/section-one-number.png');
+      background-image: url('../../images/section-one-number.png');
       background-repeat: no-repeat;
       background-size: 6em;
       background-position: 7em 0;

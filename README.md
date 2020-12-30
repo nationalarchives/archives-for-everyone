@@ -3,23 +3,9 @@
 
 ## Development machine configuration
 
-We're using [Parcel.js](https://parceljs.org/) to transpile SASS to CSS. Run the following commands **from the project root**:
+This is a simple HTML site so should be entirely portable. **Just be sure not to include the `.git` directory in the production server**.
 
-### Initial setup
-```bash
-npm install -g parcel-bundler
-```
+Steps: 
 
-### Daily use
-```bash 
-parcel watch styles.scss & parcel index.html & open http://localhost:1234
-```
-Note: you might need to refresh the browser after running this command.
-
-### Preparing for deployment
-
-Before submitting a PR, run this command to ensure all assets have been added to the  `dist` directory: 
-
-```bash
-parcel build index.html grid.html
-```
+* Install [Sass](https://sass-lang.com) globally with `npm install -g sass`
+* Kick off a Sass watch task with `sass --watch styles/styles.scss styles/dist/styles.css`

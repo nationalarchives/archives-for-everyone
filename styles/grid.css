@@ -35,7 +35,7 @@ body {
         grid-row: 7 / 9;
     }
     .section-1 .item:nth-child(2) {
-        background-image: url(../images/collage-6.jpg);
+        background-image: url(../../images/collage-6.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -47,7 +47,7 @@ body {
         grid-row: 3 / 5;
     }
     .section-1 .item:nth-child(4) {
-        background-image: url(../images/collage-7.jpg);
+        background-image: url(../../images/collage-7.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -55,7 +55,7 @@ body {
         grid-row: 1 / 3;
     }
     .section-1 .item:nth-child(5) {
-        background-image: url(../images/collage-8.jpg);
+        background-image: url(../../images/collage-8.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -63,7 +63,7 @@ body {
         grid-row: 5 / 7;
     }
     .section-1 .item:nth-child(6) {
-        background-image: url(../images/bird-lady.jpg);
+        background-image: url(../../images/bird-lady.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -77,7 +77,7 @@ body {
     }
 
     .section-5 .item:nth-child(1) {
-        background-image: url(../images/collage-1.jpg);
+        background-image: url(../../images/collage-1.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -89,7 +89,7 @@ body {
         grid-row: 1 / 3;
     }
     .section-5 .item:nth-child(3) {
-        background-image: url(../images/bird-lady.jpg);
+        background-image: url(../../images/bird-lady.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -101,7 +101,7 @@ body {
         grid-row: 3 / 5;
     }
     .section-5 .item:nth-child(5) {
-        background-image: url(../images/collage-2.jpg);
+        background-image: url(../../images/collage-2.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -113,7 +113,7 @@ body {
         grid-row: 5 / 7;
     }
     .section-5 .item:nth-child(7) {
-        background-image: url(../images/collage-3.jpg);
+        background-image: url(../../images/collage-3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -125,7 +125,7 @@ body {
         grid-row: 8 / 10;
     }
     .section-5 .item:nth-child(9) {
-        background-image: url(../images/collage-4.jpg);
+        background-image: url(../../images/collage-4.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -137,7 +137,7 @@ body {
         grid-row: 9 / 11;
     }
     .section-5 .item:nth-child(11) {
-        background-image: url(../images/collage-5.jpg);
+        background-image: url(../../images/collage-5.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -169,7 +169,7 @@ body {
             grid-row: 5 / 7;
         }
         .section-1 .item:nth-child(2) {
-            background-image: url(../images/collage-6.jpg);
+            background-image: url(../../images/collage-6.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center;
@@ -181,7 +181,7 @@ body {
             grid-row: 3 / 5;
         }
         .section-1 .item:nth-child(4) {
-            background-image: url(../images/collage-7.jpg);
+            background-image: url(../../images/collage-7.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center;
@@ -189,7 +189,7 @@ body {
             grid-row: 1 / 3;
         }
         .section-1 .item:nth-child(5) {
-            background-image: url(../images/collage-8.jpg);
+            background-image: url(../../images/collage-8.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center;
@@ -197,7 +197,7 @@ body {
             grid-row: 8 / 13;
         }
         .section-1 .item:nth-child(6) {
-            background-image: url(../images/bird-lady.jpg);
+            background-image: url(../../images/bird-lady.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center;
@@ -211,7 +211,7 @@ body {
         }
 
         .section-5 .item:nth-child(1) {
-            background-image: url(../images/collage-1.jpg);
+            background-image: url(../../images/collage-1.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center;
@@ -223,7 +223,7 @@ body {
             grid-row: 1 / 3;
         }
         .section-5 .item:nth-child(3) {
-            background-image: url(../images/bird-lady.jpg);
+            background-image: url(../../images/bird-lady.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center;
@@ -235,7 +235,7 @@ body {
             grid-row: 3 / 6;
         }
         .section-5 .item:nth-child(5) {
-            background-image: url(../images/collage-2.jpg);
+            background-image: url(../../images/collage-2.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center;
@@ -247,7 +247,7 @@ body {
             grid-row: 6 / 9;
         }
         .section-5 .item:nth-child(7) {
-            background-image: url(../images/collage-3.jpg);
+            background-image: url(../../images/collage-3.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center;
@@ -259,7 +259,7 @@ body {
             grid-row: 11 / 14;
         }
         .section-5 .item:nth-child(9) {
-            background-image: url(../images/collage-4.jpg);
+            background-image: url(../../images/collage-4.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center;
@@ -271,7 +271,7 @@ body {
             grid-row: 16 / 19;
         }
         .section-5 .item:nth-child(11) {
-            background-image: url(../images/collage-5.jpg);
+            background-image: url(../../images/collage-5.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center;

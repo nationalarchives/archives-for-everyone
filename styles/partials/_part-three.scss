@@ -19,13 +19,13 @@
   }
 
   @media (min-width: $large-devices) {
-    background-image: url('../images/section-three-top-strip-large.png');
+    background-image: url('../../images/section-three-top-strip-large.png');
     background-repeat: repeat-x;
     background-position: center top;
   }
 
   @media (min-width: $extra-large-devices) {
-    background-image: url('../images/section-three-top-strip-extra-large.png');
+    background-image: url('../../images/section-three-top-strip-extra-large.png');
     background-repeat: repeat-x;
     background-position: center top;
   }
@@ -36,8 +36,8 @@
     @media (min-width: $large-devices) {
       color: #000;
       min-height: 108em;
-      background: url('../images/section-three-intro-background.png') no-repeat center top,
-      url('../images/section-three-end-background.png') no-repeat center bottom;
+      background: url('../../images/section-three-intro-background.png') no-repeat center top,
+      url('../../images/section-three-end-background.png') no-repeat center bottom;
       background-size: 100%;
       padding-bottom: 0;
 
@@ -56,7 +56,7 @@
       margin-bottom: 4em;
       position: relative;
       padding-top: 60%;
-      background-image: url('../images/section-three-intro-background-small.png');
+      background-image: url('../../images/section-three-intro-background-small.png');
       background-size: 99%;
       background-repeat: no-repeat;
       background-position: center top;
@@ -70,7 +70,7 @@
       @media (min-width: $medium-devices) {
         position: relative;
         padding-top: 29.5em;
-        background-image: url('../images/section-three-intro-background-medium.png');
+        background-image: url('../../images/section-three-intro-background-medium.png');
         background-size: 100%;
         background-repeat: no-repeat;
         margin-bottom: 0;
@@ -139,7 +139,7 @@
       @media (min-width: $medium-devices) {
         position: relative;
         padding-top: 28.5em;
-        background-image: url('../images/section-three-entrepreneurial-background-medium.png');
+        background-image: url('../../images/section-three-entrepreneurial-background-medium.png');
         background-size: 100%;
         background-repeat: no-repeat;
         margin-bottom: 0;
@@ -214,7 +214,7 @@
       @media (min-width: $medium-devices) {
         position: relative;
         padding-top: 24.5em;
-        background-image: url('../images/section-three-disruptive-background-medium.png');
+        background-image: url('../../images/section-three-disruptive-background-medium.png');
         background-size: 100%;
         background-repeat: no-repeat;
       }
