@@ -11,7 +11,7 @@
   .container {
     position: relative;
     padding-top: 45%;
-    background-image: url('../images/section-five-background-small.png');
+    background-image: url('../../images/section-five-background-small.png');
     background-size: 98%;
     background-repeat: no-repeat;
     background-position: center top;
@@ -126,14 +126,14 @@
     }
     @media (min-width: $medium-devices) {
       padding-top: 27em;
-      background: url('../images/section-five-background-medium.png') no-repeat center top;
+      background: url('../../images/section-five-background-medium.png') no-repeat center top;
       background-size: 96.5%;
     }
 
     @media (min-width: $large-devices) {
       padding: 0;
       min-height: 85em;
-      background: url('../images/section-five-background.png') no-repeat center top;
+      background: url('../../images/section-five-background.png') no-repeat center top;
       background-size: 100%;
     }
   }
