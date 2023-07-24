@@ -615,6 +615,17 @@ html body .container .col-lg-6 {
     font-size: 100%;
   }
 }
+.part-three .container #inclusive-archive .primary-action {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+  width: 200px;
+  padding: 8px;
+  background-color: rgba(249, 247, 226, 0.95);
+  color: #26262A;
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.9em;
+}
 .part-three .container #entrepreneurial-archive {
   margin-bottom: 4em;
 }
